@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap");
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color: #2b2767;
+  --secondary-color: #ee5c36;
+  --primary-font: "Poppins", system-ui;
+  --secondary-font: "Cabin Sketch", sans-serif;
 }
 
 html,
@@ -10,11 +16,12 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  color: #000;
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--primary-font);
 }
 
 * {
@@ -28,6 +35,20 @@ a {
   text-decoration: none;
 }
 /*========Header==========*/
+.header {
+  background-color: #f0f0f0;
+  position: relative;
+}
+.logo img {
+  z-index: 99999;
+  position: relative;
+}
+.header .bottom-shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 85%;
+}
 .navigation ul {
   list-style-type: none;
   display: flex;
@@ -40,6 +61,19 @@ a {
 
 .navigation ul li a {
   text-decoration: none;
-  color: #000;
-  padding: 5px 15px;
+  color: #2b2767;
+  padding: 5px 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.hero h1 {
+  font-family: var(--secondary-font);
+  font-size: 68px;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+.hero p {
+  color: var(--primary-color);
+  font-size: 22px;
 }

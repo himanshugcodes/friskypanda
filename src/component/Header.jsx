@@ -4,7 +4,7 @@ import Link from "next/link";
 const header = () => {
   return (
     <>
-      <header className="">
+      <header className="header">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-3">
@@ -12,8 +12,8 @@ const header = () => {
                 <Link href="/">
                   <Image
                     src="/assets/images/logo.png"
-                    width={100}
-                    height={120}
+                    width={150}
+                    height={154}
                     alt="Frisky Panda"
                   />
                 </Link>
@@ -50,6 +50,9 @@ const header = () => {
               </nav>
             </div>
           </div>
+        </div>
+        <div className="bottom-shape">
+          <img src="/assets/images/header-bg.png" alt="Frisky Panda" />
         </div>
       </header>
     </>

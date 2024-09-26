@@ -5,6 +5,9 @@
   --foreground: #171717;
   --primary-color: #2b2767;
   --secondary-color: #ee5c36;
+  --green-color: #00a76e;
+  --white-color: #fff;
+  --black-color: #000;
   --primary-font: "Poppins", system-ui;
   --secondary-font: "Cabin Sketch", sans-serif;
 }
@@ -20,7 +23,8 @@ body {
   background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: var(--primary-font);
+  font-family: var(--primary-font) !important;
+  font-weight: 500;
 }
 
 * {
@@ -39,7 +43,7 @@ a {
   position: relative;
 }
 .logo img {
-  z-index: 99999;
+  z-index: 9;
   position: relative;
 }
 .header .bottom-shape {
@@ -66,7 +70,16 @@ a {
   font-weight: 600;
   font-family: var(--primary-font);
 }
-
+/*========Hero Section==========*/
+.hero {
+  position: relative;
+}
+.hero .bottom-shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 98%;
+}
 .hero h1 {
   font-family: var(--secondary-font);
   font-size: 68px;
@@ -74,6 +87,43 @@ a {
   font-weight: 700;
 }
 .hero p {
+  color: var(--primary-color);
+  font-size: 22px;
+}
+/*========Headings==========*/
+.main-heading h1 {
+  font-family: var(--secondary-font);
+  font-size: 55px;
+  color: var(--secondary-color);
+  font-weight: 700;
+  text-align: center;
+}
+.main-heading h5 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  color: var(--primary-color);
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.main-heading p {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: var(--black-color);
+  text-align: center;
+}
+/*========Hero Section==========*/
+.home-why {
+  background: #e7f8fe url(http://localhost:3000/assets/images/why-bg.png) !important;
+  background-size: contain !important;
+  background-position: 100% 59% !important;
+  background-repeat: no-repeat !important;
+}
+.home-why .home-why-box {
+  text-align: center;
+  color: var(--primary-color);
+}
+.home-why .home-why-box h4 {
   color: var(--primary-color);
   font-size: 22px;
 }

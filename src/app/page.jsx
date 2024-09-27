@@ -93,6 +93,18 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Activities Section */}
+      <section className="home-activities d-flex align-items-center vh-100">
+        <div className="bottom-shape">
+          <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
+        </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4"></div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

@@ -26,7 +26,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: var(--primary-font) !important;
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 * {
@@ -95,7 +95,6 @@ dl {
   color: #2b2767;
   padding: 5px 18px;
   font-size: 18px;
-  font-weight: 600;
   font-family: var(--primary-font);
 }
 /*========Hero Section==========*/
@@ -116,7 +115,33 @@ dl {
 }
 .hero p {
   color: var(--primary-color);
-  font-size: 22px;
+  font-size: 20px;
+}
+.hero-img {
+  text-align: center;
+  position: relative;
+}
+.hero-shape1 {
+  position: absolute;
+  left: -12%;
+  bottom: 0%;
+}
+.hero-shape2 {
+  position: absolute;
+  right: -10%;
+  bottom: 22%;
+}
+.hero-baloon-shape {
+  position: absolute;
+  left: 32.1%;
+  bottom: 59.3%;
+}
+.hero-shape-traingle {
+  position: absolute;
+  left: -3%;
+  bottom: -14%;
+  transform: scale(0.7);
+  z-index: -1;
 }
 /*========Headings==========*/
 .main-heading h1 {

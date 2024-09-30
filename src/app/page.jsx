@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* Hero section */}
-      <section className="hero vh-100 d-flex justify-content-center align-items-center text-black text-white">
+      <section className="hero  d-flex justify-content-center align-items-center">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6">
@@ -16,15 +16,44 @@ export default function Home() {
                 parties that will leave your little ones beaming with joy!
               </p>
             </div>
-            <div className="col-md-6 ps-5">
-              <Image
-                src="/assets/images/hero-1.png"
-                width={410}
-                height={495}
-                alt="Frisky Panda"
-              />
+            <div className="col-md-6 pt-5 pb-4">
+              <div className="hero-img">
+                <div className="hero-shape1">
+                  <Image
+                    src="/assets/images/hero/panda1.png"
+                    width={220}
+                    height={226}
+                    alt="Frisky Panda"
+                  />
+                </div>
+                <Image
+                  src="/assets/images/hero/hero-1.png"
+                  width={370}
+                  height={450}
+                  alt="Frisky Panda"
+                />
+                <div className="hero-shape2">
+                  <Image
+                    src="/assets/images/hero/panda2.png"
+                    width={220}
+                    height={226}
+                    alt="Frisky Panda"
+                  />
+                </div>
+              </div>
             </div>
           </div>
+        </div>
+        {/* <div className="hero-baloon-shape">
+          <Image
+            src="/assets/images/hero/cloud.svg"
+            width={332}
+            height={215}
+            alt="Frisky Panda"
+          />
+        </div> */}
+        <div className="hero-shape-traingle">
+          <img src="/assets/images/hero/hero-triangle.svg" alt="Frisky Panda" />
         </div>
         <div className="bottom-shape">
           <img src="/assets/images/bottom.webp" alt="Frisky Panda" />

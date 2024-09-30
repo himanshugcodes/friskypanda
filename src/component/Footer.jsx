@@ -17,7 +17,7 @@ const footer = () => {
     <footer className="footer-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-3 pe-2">
+          <div className="col-md-3 pe-md-2">
             <div className="single-footer">
               <Link href="/">
                 <Image
@@ -28,14 +28,14 @@ const footer = () => {
                 />
               </Link>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit
-                exercitationem, cupiditate cumque suscipit ipsa excepturi natus
-                omnis placeat nostrum recusandae .
+                Join us for an unforgettable experience at our exclusive indoor
+                playground, where our master pandas curate themed birthday
+                parties that will leave your little ones beaming with joy!
               </p>
             </div>
           </div>
-          <div className="col-md-2 ps-5">
-            <div className="single-footer ps-2">
+          <div className="col-md-2 ps-md-5">
+            <div className="single-footer ps-md-2">
               <div className="single-footer-head">
                 <h3>Quick Links</h3>
               </div>
@@ -88,8 +88,8 @@ const footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-3 ps-5">
-            <div className="single-footer ms-5">
+          <div className="col-md-3 ps-md-5">
+            <div className="single-footer ms-md-5">
               <div className="single-footer-head">
                 <h3>Other Links</h3>
               </div>
@@ -140,7 +140,7 @@ const footer = () => {
             </div>
           </div>
           <div className="col-md-4 ps-5">
-            <div className="single-footer footer-add ms-4">
+            <div className="single-footer footer-add ms-md-4">
               <div className="single-footer-head">
                 <h3>Contact Us</h3>
               </div>

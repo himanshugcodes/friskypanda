@@ -17,7 +17,7 @@ const footer = () => {
     <footer className="footer-section">
       <div className="container">
         <div className="row">
-          <div className="col-md-3 pe-md-2">
+          <div className="col-md-4 pe-md-2">
             <div className="single-footer">
               <Link href="/">
                 <Image
@@ -139,12 +139,12 @@ const footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-4 ps-5">
-            <div className="single-footer footer-add ms-md-4">
+          <div className="col-md-3 ps-md-5">
+            <div className="single-footer footer-add">
               <div className="single-footer-head">
                 <h3>Contact Us</h3>
               </div>
-              <ul class="footer-contact">
+              <ul className="footer-contact">
                 <li>
                   <i>
                     <FaPhoneAlt />
@@ -170,18 +170,18 @@ const footer = () => {
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <div class="bottom-shape">
+      <div className="footer-bottom">
+        <div className="bottom-shape">
           <img src="assets/images/footer-bottom.png" alt="shape-img" />
         </div>
-        <div class="container">
-          <div class="footer-wrapper d-flex align-items-center justify-content-between">
-            <p class="mb-0">
+        <div className="container">
+          <div className="footer-wrapper d-flex align-items-center justify-content-between">
+            <p className="mb-0">
               © All Copyright 2024 by <a href="">Frisky Panda</a>
             </p>
-            <div class="footer-global-social">
+            <div className="footer-global-social">
               <h3>Connect with us</h3>
-              <ul class="footer-global-social-link">
+              <ul className="footer-global-social-link">
                 <li>
                   <a href="#" target="blank">
                     <i>
@@ -214,8 +214,8 @@ const footer = () => {
             </div>
           </div>
         </div>
-        {/* <a href="#" id="scrollUp" class="scroll-icon">
-          <i class="far fa-arrow-up"></i>
+        {/* <a href="#" id="scrollUp" className="scroll-icon">
+          <i className="far fa-arrow-up"></i>
         </a> */}
       </div>
     </footer>

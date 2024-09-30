@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaRegClock, FaMapMarker } from "react-icons/fa";
+import Gallery from "../component/Gallery";
 
 export default function Home() {
   return (
@@ -134,6 +135,12 @@ export default function Home() {
             <div className="col-md-8">
               <div className="main-heading">
                 <h1>Activities@ Frisky Panda</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quibusdam odit veritatis, nemo pariatur facilis nesciunt cum
+                  unde! Rem suscipit culpa minus veniam quo porro consequuntur,
+                  nobis incidunt, magni neque libero.
+                </p>
               </div>
             </div>
           </div>
@@ -481,12 +488,19 @@ export default function Home() {
       <section className="home-contact section-padding">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-8 mt-5">
+            <div className="col-md-8">
               <div className="main-heading">
                 <h1>Gallery</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                  vel voluptate dolore deleniti aut eum excepturi voluptates
+                  fugit consequatur nobis, obcaecati sapiente perspiciatis sequi
+                  reprehenderit totam voluptatum numquam id quia!
+                </p>
               </div>
             </div>
           </div>
+          <Gallery />
         </div>
         <div className="bottom-shape">
           <img src="/assets/images/bottom.webp" alt="Frisky Panda" />

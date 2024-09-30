@@ -32,13 +32,13 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="home-why d-flex align-items-center vh-100">
+      <section className="home-why section-padding">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-8 mt-5">
+            <div className="col-md-8">
               <div className="main-heading">
                 {/* <h5 className="mt-5">Why Choose Us</h5> */}
-                <h1 className="mt-5">Why Choose Us</h1>
+                <h1 className="">Why Choose Us</h1>
                 {/* <p>
                   Join us for an unforgettable experience at our exclusive
                   indoor playground, where our master pandas curate themed
@@ -96,19 +96,19 @@ export default function Home() {
       </section>
 
       {/* Activities Section */}
-      <section className="home-activities">
+      <section className="home-activities section-padding">
         <div className="bottom-shape">
           <img src="/assets/images/top.png" alt="Frisky Panda" />
         </div>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-md-8 mt-5">
+            <div className="col-md-8">
               <div className="main-heading">
                 <h1>Activities@ Frisky Panda</h1>
               </div>
             </div>
           </div>
-          <div className="row align-items-center justify-content-center mb-5">
+          <div className="row align-items-center justify-content-center">
             <div className="col-lg-3">
               <div className="program-box-items">
                 <div className="program-bg"></div>
@@ -248,10 +248,10 @@ export default function Home() {
       </section>
 
       {/* Event Section */}
-      <section className="home-event d-flex align-items-center vh-100">
+      <section className="home-event section-padding">
         <div className="container-fluid">
           <div className="row justify-content-center">
-            <div className="col-md-8 mt-5">
+            <div className="col-md-8">
               <div className="main-heading">
                 <h1 className="text-white">Upcoming Events</h1>
               </div>
@@ -449,7 +449,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="home-contact d-flex align-items-center vh-100">
+      <section className="home-contact section-padding">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-8 mt-5">

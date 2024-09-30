@@ -65,6 +65,9 @@ dl {
   margin: 0;
   padding: 0;
 }
+.section-padding {
+  padding: 100px 0;
+}
 /*========Header==========*/
 .header {
   background-color: #f0f0f0;
@@ -168,7 +171,7 @@ dl {
   position: absolute;
   right: 0;
   bottom: 0;
-  top: -17%;
+  top: -11%;
 }
 .program-box-items {
   position: relative;
@@ -261,7 +264,7 @@ dl {
 # Event details
 --------------------------------------------------------------*/
 .home-event {
-  background-image: url(http://localhost:3000/assets/images/event-bg.jpg) !important;
+  background-image: url(https://friskypanda.vercel.app/assets/images/event-bg.jpg) !important;
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;

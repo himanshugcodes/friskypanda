@@ -142,9 +142,10 @@ dl {
 }
 /*========Hero Section==========*/
 .home-why {
-  background: #f4eee5 url(http://localhost:3000/assets/images/why-bg.png) !important;
+  background: #f4eee5
+    url(https://friskypanda.vercel.app/assets/images/why-bg.png) !important;
   background-size: contain !important;
-  background-position: 100% 59% !important;
+  background-position: 100% 45% !important;
   background-repeat: no-repeat !important;
 }
 .home-why .home-why-box {
@@ -171,7 +172,7 @@ dl {
   position: absolute;
   right: 0;
   bottom: 0;
-  top: -11%;
+  top: -14%;
 }
 .program-box-items {
   position: relative;

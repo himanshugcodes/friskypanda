@@ -10,7 +10,7 @@ export default function Home() {
         <section className="hero  d-flex justify-content-center align-items-center">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6">
+              <div className="col-md-6 order-0 order-md-1">
                 <h1>Welcome to Frisky Panda.in</h1>
                 <p>
                   Join us for an unforgettable experience at our exclusive
@@ -19,7 +19,7 @@ export default function Home() {
                   joy!
                 </p>
               </div>
-              <div className="col-md-6 pt-5 pb-4">
+              <div className="col-md-6 pt-5 pb-4 order-1 order-md-0">
                 <div className="hero-img">
                   <div className="hero-shape1">
                     <Image

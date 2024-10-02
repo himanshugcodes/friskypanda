@@ -65,6 +65,9 @@ dl {
   margin: 0;
   padding: 0;
 }
+.page-wrapper {
+  overflow: hidden;
+}
 .section-padding {
   padding: 100px 0;
 }
@@ -114,7 +117,7 @@ dl {
   position: relative;
 }
 .mobile-nav__wrapper.expanded {
-  position: absolute;
+  position: fixed;
   /* background: #ccc; */
   top: 0;
   bottom: 0;
@@ -136,7 +139,7 @@ dl {
   /* cursor: pointer;
   width: 100vw;
   height: 100vh; */
-  cursor: url(http://localhost:3000/assets/images/close.png), auto;
+  cursor: url(https://friskypanda.vercel.app/assets/images/close.png), auto;
 }
 .mobile-nav__content {
   width: 300px;

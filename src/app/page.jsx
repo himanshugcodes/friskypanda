@@ -10,7 +10,7 @@ export default function Home() {
         <section className="hero  d-flex justify-content-center align-items-center">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6 order-0 order-md-1">
+              <div className="col-md-6">
                 <h1>Welcome to Frisky Panda.in</h1>
                 <p>
                   Join us for an unforgettable experience at our exclusive
@@ -19,7 +19,7 @@ export default function Home() {
                   joy!
                 </p>
               </div>
-              <div className="col-md-6 pt-5 pb-4 order-1 order-md-0">
+              <div className="col-md-6 pt-md-5 pb-md-4 ">
                 <div className="hero-img">
                   <div className="hero-shape1">
                     <Image
@@ -82,14 +82,14 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className="row">
               <div className="col-md-3">
                 <div className="home-why-box">
                   <img
                     src="/assets/images/why-choose-us-01.png"
                     alt="Frisky Panda"
                   />
-                  <h4 className="pt-4">Indoor Playground</h4>
+                  <h4 className="pt-2 pt-md-4">Indoor Playground</h4>
                   <p>Exclusive Kid Friendly indoor playground</p>
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function Home() {
                     src="/assets/images/why-choose-us-02.png"
                     alt="Frisky Panda"
                   />
-                  <h4 className="pt-4">CCTV Supervision</h4>
+                  <h4 className="pt-2 pt-md-4">CCTV Supervision</h4>
                   <p>
                     CCTV supervision to ensure maximum safety of our little ones
                   </p>
@@ -111,7 +111,7 @@ export default function Home() {
                     src="/assets/images/why-choose-us-03.png"
                     alt="Frisky Panda"
                   />
-                  <h4 className="pt-4">Frisky Panda cafe</h4>
+                  <h4 className="pt-2 pt-md-4">Frisky Panda cafe</h4>
                   <p>Frisky Panda cafe especially designed for kids and moms</p>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default function Home() {
                     src="/assets/images/why-choose-us-04.png"
                     alt="Frisky Panda"
                   />
-                  <h4 className="pt-4">Fun Activities</h4>
+                  <h4 className="pt-2 pt-md-4">Fun Activities</h4>
                   <p>Let our pandas entertain your kids with fun activities</p>
                 </div>
               </div>
@@ -138,12 +138,6 @@ export default function Home() {
               <div className="col-md-8">
                 <div className="main-heading">
                   <h1>Activities@ Frisky Panda</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quibusdam odit veritatis, nemo pariatur facilis nesciunt cum
-                    unde! Rem suscipit culpa minus veniam quo porro
-                    consequuntur, nobis incidunt, magni neque libero.
-                  </p>
                 </div>
               </div>
             </div>
@@ -295,7 +289,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="row mt-5">
+            <div className="row">
               <div className="col-lg-6">
                 <div className="event-box-item">
                   <div className="row align-items-center">
@@ -493,13 +487,6 @@ export default function Home() {
               <div className="col-md-8">
                 <div className="main-heading">
                   <h1>Gallery</h1>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos vel voluptate dolore deleniti aut eum excepturi
-                    voluptates fugit consequatur nobis, obcaecati sapiente
-                    perspiciatis sequi reprehenderit totam voluptatum numquam id
-                    quia!
-                  </p>
                 </div>
               </div>
             </div>

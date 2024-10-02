@@ -10,7 +10,7 @@ const Gallery = () => {
   }, []);
 
   return (
-    <div className="row g-4 mt-3">
+    <div className="row justify-content-center g-4 ">
       <div className="col-md-3">
         <a href="assets/images/gallery-1.png" data-fancybox="gallery">
           <img src="assets/images/gallery-1.png" alt="Thumbnail 1" />

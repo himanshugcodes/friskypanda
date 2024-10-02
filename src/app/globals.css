@@ -261,6 +261,7 @@ dl {
   color: var(--secondary-color);
   font-weight: 700;
   text-align: center;
+  margin-bottom: 40px;
 }
 .main-heading h5 {
   font-family: var(--primary-font);
@@ -308,12 +309,12 @@ dl {
   position: absolute;
   right: 0;
   bottom: 0;
-  top: -13%;
+  top: -12%;
 }
 .program-box-items {
   position: relative;
   max-width: 270px;
-  margin: 21px auto 30px;
+  margin: 0px auto 0px;
   transition: 0.3s;
   padding: 51px 26.5px 16px;
 }
@@ -664,7 +665,96 @@ dl {
 
 @media only screen and (max-width: 767px) {
   .hero h1 {
-    font-family: var(--secondary-font);
     font-size: 50px;
+    text-align: center;
+    margin-top: 24px;
+  }
+  .hero p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .main-heading h1 {
+    font-size: 38px;
+  }
+  .section-padding {
+    padding: 70px 0;
+  }
+  /* .hero-shape1,
+  .hero-shape2 {
+    display: none;
+  } */
+  .hero-shape1 {
+    position: absolute;
+    left: -2%;
+    bottom: 33%;
+  }
+  .hero-shape1 img {
+    width: 100px !important;
+  }
+  .hero-shape2 img {
+    width: 100px !important;
+  }
+  .hero-shape2 {
+    position: absolute;
+    right: -2%;
+    bottom: 25%;
+  }
+  .hero-img img {
+    width: 220px;
+  }
+  .hero-shape-traingle {
+    position: absolute;
+    left: -25%;
+    bottom: -26%;
+    transform: scale(0.3);
+    z-index: -1;
+  }
+
+  .hero .bottom-shape {
+    top: 100%;
+  }
+  .home-why-box img {
+    width: 180px;
+  }
+  .home-why .home-why-box {
+    margin-bottom: 30px;
+  }
+  .home-why .home-why-box h4 {
+    color: var(--primary-color);
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  .home-why .home-why-box p {
+    color: var(--text-color);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .home-why {
+    background-position: 100% 17% !important;
+    background-repeat: no-repeat !important;
+  }
+  .home-activities .bottom-shape {
+    display: none;
+  }
+  .program-box-items .program-content {
+    padding: 0 0 36px 0px;
+  }
+  .program-box-items {
+    position: relative;
+    max-width: 270px;
+    margin: 0px auto 30px;
+  }
+  .event-image img {
+    text-align: center;
+    display: none;
+  }
+  .event-box-item .event-date h4 {
+    font-size: 80px;
+    color: #ea512e;
+    margin-bottom: 0;
+    font-family: var(--secondary-font);
+  }
+  .home-contact {
+    text-align: center;
   }
 }

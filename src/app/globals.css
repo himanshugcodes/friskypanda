@@ -97,6 +97,108 @@ dl {
   font-size: 18px;
   font-family: var(--primary-font);
 }
+/*========Mobile Header==========*/
+.mob-header {
+  padding: 10px 0;
+}
+.mob-header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  position: relative;
+}
+.mobile-nav__wrapper.expanded {
+  position: absolute;
+  /* background: #ccc; */
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+  z-index: 9;
+  /* height: 100%;
+  position: fixed; */
+}
+.mobile-nav__wrapper.expanded .mobile-nav__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.3;
+  /* cursor: pointer;
+  width: 100vw;
+  height: 100vh; */
+  /* cursor: url(../assets/images/close.png), auto;  */
+}
+.mobile-nav__content {
+  width: 300px;
+  background-color: #fff;
+  z-index: 10;
+  position: absolute;
+  height: 100%;
+  overflow-y: auto;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-100%);
+  transition: opacity 500ms ease 0ms, visibility 500ms ease 0ms,
+    transform 500ms ease 0ms;
+}
+.mobile-nav__wrapper.expanded .mobile-nav__content {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+  transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms,
+    transform 500ms ease 500ms;
+}
+.mobile-nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  background: #eee;
+}
+.logo-box h4 {
+  margin-bottom: 0px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+.mobile-nav__close {
+  position: relative;
+  font-size: 20px;
+  color: var(--primary-color) !important;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.mobile-nav__content .logo-box {
+  margin-bottom: 0px;
+}
+.mobile-nav__content .main-menu__list,
+.mobile-nav__content .main-menu__list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.mobile-nav__content .main-menu__list li:not(:last-child) {
+  border-bottom: 1px solid #f0f0f0;
+}
+.mobile-nav__content .main-menu__list li > a {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+  color: var(--primary-color) !important;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  height: 46px;
+  align-items: center;
+  transition: 500ms;
+  padding: 6px 20px 6px 10px;
+}
 /*========Hero Section==========*/
 .hero {
   position: relative;

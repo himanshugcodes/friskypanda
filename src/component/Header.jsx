@@ -100,28 +100,28 @@ const header = () => {
 
             <div className="mobile-nav__container">
               <ul className="main-menu__list">
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/">Home</Link>
                 </li>
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/about">About Us</Link>
                 </li>
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/">Birthday Parties</Link>
                 </li>
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/">Events</Link>
                 </li>
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/">Cafe</Link>
                 </li>
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/">Gallery</Link>
                 </li>
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/">Membership</Link>
                 </li>
-                <li>
+                <li onClick={toggleMobileMenu}>
                   <Link href="/">Contact Us</Link>
                 </li>
               </ul>

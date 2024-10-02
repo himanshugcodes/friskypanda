@@ -101,6 +101,10 @@ dl {
 .mob-header {
   padding: 10px 0;
 }
+.mob-main-header-right i {
+  font-size: 25px;
+  color: var(--primary-color);
+}
 .mob-header-box {
   display: flex;
   align-items: center;
@@ -652,4 +656,11 @@ dl {
   bottom: 0;
   top: 99%;
   z-index: 99;
+}
+
+@media only screen and (max-width: 767px) {
+  .hero h1 {
+    font-family: var(--secondary-font);
+    font-size: 50px;
+  }
 }

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
-const header = () => {
+const Header = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -133,4 +133,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

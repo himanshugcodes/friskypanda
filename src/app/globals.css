@@ -99,7 +99,8 @@ dl {
 }
 /*========Mobile Header==========*/
 .mob-header {
-  padding: 10px 0;
+  padding: 0px 0;
+  background: #f0f0f0;
 }
 .mob-main-header-right i {
   font-size: 25px;
@@ -109,7 +110,7 @@ dl {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0;
+  padding: 5px 0;
   position: relative;
 }
 .mobile-nav__wrapper.expanded {
@@ -135,7 +136,7 @@ dl {
   /* cursor: pointer;
   width: 100vw;
   height: 100vh; */
-  /* cursor: url(../assets/images/close.png), auto;  */
+  cursor: url(http://localhost:3000/assets/images/close.png), auto;
 }
 .mobile-nav__content {
   width: 300px;

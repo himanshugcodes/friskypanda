@@ -30,6 +30,7 @@ export default function Home() {
                     />
                   </div>
                   <Image
+                    className=""
                     src="/assets/images/hero/hero-1.png"
                     width={370}
                     height={450}
@@ -55,7 +56,10 @@ export default function Home() {
             alt="Frisky Panda"
           />
         </div> */}
-          <div className="hero-shape-traingle">
+          <div className="parasuit-shape float-bob-y">
+            <img src="assets/images/hero/baloon.gif" alt="shape-img" />
+          </div>
+          <div className="hero-shape-traingle ">
             <img
               src="/assets/images/hero/hero-triangle.svg"
               alt="Frisky Panda"

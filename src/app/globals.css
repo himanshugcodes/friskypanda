@@ -216,8 +216,10 @@ dl {
   position: absolute;
   right: 0;
   bottom: 0;
-  top: 98%;
+  top: 99.9%;
+  z-index: 9;
 }
+
 .hero h1 {
   font-family: var(--secondary-font);
   font-size: 68px;
@@ -284,6 +286,13 @@ dl {
   background-size: contain !important;
   background-position: 100% 45% !important;
   background-repeat: no-repeat !important;
+  position: relative;
+}
+.home-why .bottom-shape {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  z-index: 9;
 }
 .home-why .home-why-box {
   text-align: center;
@@ -308,9 +317,10 @@ dl {
 .home-activities .bottom-shape {
   position: absolute;
   right: 0;
-  bottom: 0;
-  top: -12%;
+  top: 100%;
+  z-index: 9;
 }
+
 .program-box-items {
   position: relative;
   max-width: 270px;
@@ -409,6 +419,12 @@ dl {
   background-attachment: fixed !important;
   position: relative !important;
   z-index: 1 !important;
+}
+.home-event .bottom-shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
 }
 .home-event::before {
   position: absolute;
@@ -585,7 +601,7 @@ dl {
   position: relative;
   z-index: 9;
 }
-.footer-bottom .bottom-shape {
+.footer-bottom .bottom-shape-footer {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -651,16 +667,14 @@ dl {
 .footer-global-social-link li:nth-child(4):hover a {
   color: #ff0000 !important;
 }
-
-.home-contact {
-  position: relative;
-}
-.home-contact .bottom-shape {
+.footer-section .bottom-shape {
   position: absolute;
   right: 0;
-  bottom: 0;
-  top: 99%;
+  top: -1px;
   z-index: 99;
+}
+.home-contact {
+  position: relative;
 }
 
 @media only screen and (max-width: 767px) {

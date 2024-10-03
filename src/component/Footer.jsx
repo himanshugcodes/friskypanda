@@ -171,7 +171,7 @@ const footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <div className="bottom-shape">
+        <div className="bottom-shape-footer">
           <img src="assets/images/footer-bottom.png" alt="shape-img" />
         </div>
         <div className="container">
@@ -217,6 +217,9 @@ const footer = () => {
         {/* <a href="#" id="scrollUp" className="scroll-icon">
           <i className="far fa-arrow-up"></i>
         </a> */}
+      </div>
+      <div className="bottom-shape">
+        <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
       </div>
     </footer>
   );

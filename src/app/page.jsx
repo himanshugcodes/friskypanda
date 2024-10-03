@@ -127,17 +127,18 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
-        {/* Activities Section */}
-        <section className="home-activities section-padding">
           <div className="bottom-shape">
             <img src="/assets/images/top.png" alt="Frisky Panda" />
           </div>
+        </section>
+        {/* Activities Section */}
+        <section className="home-activities pb-5">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-md-8">
+              <div className="col-md-6 mb-4">
                 <div className="main-heading">
-                  <h1>Activities@ Frisky Panda</h1>
+                  <img src="/assets/images/heading-activities.png" alt="" />
+                  {/* <h1>Activities@ Frisky Panda</h1> */}
                 </div>
               </div>
             </div>
@@ -277,6 +278,9 @@ export default function Home() {
               </div>
             </div> */}
             </div>
+          </div>
+          <div className="bottom-shape">
+            <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
           </div>
         </section>
         {/* Event Section */}
@@ -480,20 +484,22 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="bottom-shape">
+            <img src="/assets/images/top.png" alt="Frisky Panda" />
+          </div>
         </section>
-        <section className="home-contact section-padding">
+        {/* Gallery */}
+        <section className="home-contact pb-5">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-md-8">
+              <div className="col-md-6 mb-4">
                 <div className="main-heading">
-                  <h1>Gallery</h1>
+                  <img src="/assets/images/heading-gallery.png" alt="" />
+                  {/* <h1>Gallery</h1> */}
                 </div>
               </div>
             </div>
             <Gallery />
-          </div>
-          <div className="bottom-shape">
-            <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
           </div>
         </section>
       </div>

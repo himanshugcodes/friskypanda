@@ -56,8 +56,11 @@ export default function Home() {
             alt="Frisky Panda"
           />
         </div> */}
-          <div className="parasuit-shape float-bob-y">
+          <div className="baloon-shape float-bob-y">
             <img src="assets/images/hero/baloon.gif" alt="shape-img" />
+          </div>
+          <div className="parasuit-shape float-bob-y">
+            <img src="assets/images/hero/parasuit.png" alt="shape-img" />
           </div>
           <div className="hero-shape-traingle ">
             <img

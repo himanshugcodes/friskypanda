@@ -258,10 +258,16 @@ dl {
 }
 .hero .parasuit-shape {
   position: absolute;
-  top: 6%;
+  top: 10%;
+  left: 8%;
+}
+
+.hero .baloon-shape {
+  position: absolute;
+  top: 4%;
   left: 45%;
 }
-.hero .parasuit-shape img {
+.hero .baloon-shape img {
   width: 150px;
 }
 /*========Headings==========*/

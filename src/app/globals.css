@@ -423,7 +423,7 @@ dl {
 .home-event .bottom-shape {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -1px;
   z-index: 9;
 }
 .home-event::before {
@@ -673,7 +673,7 @@ dl {
   top: -1px;
   z-index: 99;
 }
-.home-contact {
+.home-gallery {
   position: relative;
 }
 
@@ -747,9 +747,7 @@ dl {
     background-position: 100% 17% !important;
     background-repeat: no-repeat !important;
   }
-  .home-activities .bottom-shape {
-    display: none;
-  }
+
   .program-box-items .program-content {
     padding: 0 0 36px 0px;
   }
@@ -762,13 +760,35 @@ dl {
     text-align: center;
     display: none;
   }
+  .home-event {
+    background-image: url(https://friskypanda.vercel.app/assets/images/event-bg.jpg) !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: unset !important;
+  }
   .event-box-item .event-date h4 {
     font-size: 80px;
     color: #ea512e;
     margin-bottom: 0;
     font-family: var(--secondary-font);
   }
-  .home-contact {
+  .home-gallery {
     text-align: center;
+  }
+  .footer-section {
+    padding: 60px 0 50px 0;
+  }
+  .footer-bottom .footer-wrapper {
+    padding-top: 5px;
+  }
+  .bottom-shape-footer {
+    display: none;
+  }
+  .single-footer {
+    margin-top: 25px;
+  }
+  .footer-section .single-footer .single-footer-head {
+    margin-bottom: 10px;
   }
 }

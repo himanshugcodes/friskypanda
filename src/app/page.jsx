@@ -489,7 +489,7 @@ export default function Home() {
           </div>
         </section>
         {/* Gallery */}
-        <section className="home-contact pb-5">
+        <section className="home-gallery pb-5">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-6 mb-4">

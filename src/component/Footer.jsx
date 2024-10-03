@@ -27,14 +27,14 @@ const footer = () => {
                   alt="Frisky Panda"
                 />
               </Link>
-              <p>
+              <p className="mt-3">
                 Join us for an unforgettable experience at our exclusive indoor
                 playground, where our master pandas curate themed birthday
                 parties that will leave your little ones beaming with joy!
               </p>
             </div>
           </div>
-          <div className="col-md-2 ps-md-5">
+          <div className="col-6 col-md-2 ps-md-5">
             <div className="single-footer ps-md-2">
               <div className="single-footer-head">
                 <h3>Quick Links</h3>
@@ -88,7 +88,7 @@ const footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-md-3 ps-md-5">
+          <div className="col-6  col-md-3 ps-md-5">
             <div className="single-footer ms-md-5">
               <div className="single-footer-head">
                 <h3>Other Links</h3>
@@ -175,12 +175,12 @@ const footer = () => {
           <img src="assets/images/footer-bottom.png" alt="shape-img" />
         </div>
         <div className="container">
-          <div className="footer-wrapper d-flex align-items-center justify-content-between">
-            <p className="mb-0">
+          <div className="footer-wrapper d-flex align-items-center justify-content-between flex-wrap">
+            <p className="mb-0 pb-3 pb-md-0">
               © All Copyright 2024 by <a href="">Frisky Panda</a>
             </p>
             <div className="footer-global-social">
-              <h3>Connect with us</h3>
+              {/* <h3>Connect with us</h3> */}
               <ul className="footer-global-social-link">
                 <li>
                   <a href="#" target="blank">

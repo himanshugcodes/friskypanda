@@ -744,6 +744,7 @@ dl {
     font-weight: 400;
   }
   .home-why {
+    background: #f4eee5 !important;
     background-position: 100% 17% !important;
     background-repeat: no-repeat !important;
   }

@@ -313,14 +313,14 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="event-content">
                         <h3>
-                          <a href="#">Annual Cultural Programme</a>
+                          <a href="#">Little Monster`s bash </a>
                         </h3>
                         <ul className="event-list">
                           <li>
                             <i>
                               <FaRegClock />
                             </i>
-                            8:00 AM - 10:00 PM
+                            3:00 PM - 7:00 PM
                           </li>
                           <li>
                             <i>
@@ -334,8 +334,8 @@ export default function Home() {
 
                     <div className="col-md-3">
                       <div className="event-date">
-                        <h4>12</h4>
-                        <span>September</span>
+                        <h4>31 </h4>
+                        <span>Oct</span>
                       </div>
                     </div>
                   </div>
@@ -360,14 +360,14 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="event-content">
                         <h3>
-                          <a href="#">Annual Cultural Programme</a>
+                          <a href="#">Joyful Junior Diwali. Delight</a>
                         </h3>
                         <ul className="event-list">
                           <li>
                             <i>
                               <FaRegClock />
                             </i>
-                            8:00 AM - 10:00 PM
+                            2:00 PM - 6:00 PM
                           </li>
                           <li>
                             <i>
@@ -381,8 +381,8 @@ export default function Home() {
 
                     <div className="col-md-3">
                       <div className="event-date">
-                        <h4>12</h4>
-                        <span>September</span>
+                        <h4>3 </h4>
+                        <span>Nov</span>
                       </div>
                     </div>
                   </div>
@@ -407,14 +407,14 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="event-content">
                         <h3>
-                          <a href="#">Annual Cultural Programme</a>
+                          <a href="#">Fun-Tastic Fiesta </a>
                         </h3>
                         <ul className="event-list">
                           <li>
                             <i>
                               <FaRegClock />
                             </i>
-                            8:00 AM - 10:00 PM
+                            1:00 PM - 5:00 PM
                           </li>
                           <li>
                             <i>
@@ -428,8 +428,8 @@ export default function Home() {
 
                     <div className="col-md-3">
                       <div className="event-date">
-                        <h4>12</h4>
-                        <span>September</span>
+                        <h4>14</h4>
+                        <span>Nov</span>
                       </div>
                     </div>
                   </div>
@@ -454,14 +454,14 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="event-content">
                         <h3>
-                          <a href="#">Annual Cultural Programme</a>
+                          <a href="#">Jolly jingles party</a>
                         </h3>
                         <ul className="event-list">
                           <li>
                             <i>
                               <FaRegClock />
                             </i>
-                            8:00 AM - 10:00 PM
+                            2:00 PM - 6:00 PM
                           </li>
                           <li>
                             <i>
@@ -475,8 +475,8 @@ export default function Home() {
 
                     <div className="col-md-3">
                       <div className="event-date">
-                        <h4>12</h4>
-                        <span>September</span>
+                        <h4>25 </h4>
+                        <span>Dec</span>
                       </div>
                     </div>
                   </div>

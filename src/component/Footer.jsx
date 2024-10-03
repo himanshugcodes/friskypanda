@@ -163,7 +163,10 @@ const footer = () => {
                   <i>
                     <FaRegMap />
                   </i>
-                  <a href="">Aliganj,Lucknow</a>
+                  <a href="">
+                    Plot No. A-1/1, Sector-H,Aliganj Street and City Expansion
+                    Scheme Ward - Bajrang Bali, Lucknow
+                  </a>
                 </li>
               </ul>
             </div>

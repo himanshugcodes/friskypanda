@@ -7,10 +7,22 @@ export default function Home() {
     <>
       <div className="page-wrapper">
         {/* Hero section */}
+        {/* <div className="video-background">
+          <video autoPlay muted loop id="video-bg">
+            <source src="/assets/images/hero/hero-2.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div> */}
+
         <section className="hero  d-flex justify-content-center align-items-center">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6" data-aos="fade-right">
+              <div
+                className="col-md-6"
+                data-aos="fade-right"
+                data-aos-duration="1200"
+                data-aos-delay="100"
+              >
                 <h1>Welcome to Frisky Panda.in</h1>
                 <p>
                   Join us for an unforgettable experience at our exclusive
@@ -21,10 +33,16 @@ export default function Home() {
               </div>
               <div className="col-md-6 pt-md-5 pb-md-4 ">
                 <div className="hero-img">
-                  <div className="hero-shape1">
+                  <div
+                    className="hero-shape1"
+                    data-aos-duration="1200"
+                    data-aos-delay="100"
+                  >
                     <Image
                       src="/assets/images/hero/panda1.png"
                       data-aos="fade-down"
+                      data-aos-duration="1200"
+                      data-aos-delay="100"
                       width={220}
                       height={226}
                       alt="Frisky Panda"
@@ -59,16 +77,32 @@ export default function Home() {
             alt="Frisky Panda"
           />
         </div> */}
+
           <div className="baloon-shape float-bob-y">
-            <img src="assets/images/hero/baloon.gif" alt="shape-img" />
+            <img
+              src="assets/images/hero/baloons2.png"
+              alt="shape-img"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+              data-aos-delay="700"
+            />
           </div>
           <div className="parasuit-shape float-bob-y">
-            <img src="assets/images/hero/parasuit.png" alt="shape-img" />
+            <img
+              src="assets/images/hero/parasuit.png"
+              alt="shape-img"
+              data-aos="fade-down"
+              data-aos-duration="1200"
+              data-aos-delay="900"
+            />
           </div>
           <div className="hero-shape-traingle ">
             <img
               src="/assets/images/hero/hero-triangle.svg"
               alt="Frisky Panda"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+              data-aos-delay="900"
             />
           </div>
           <div className="bottom-shape">
@@ -96,7 +130,12 @@ export default function Home() {
             </div>
             <div className="row">
               <div className="col-md-3">
-                <div className="home-why-box">
+                <div
+                  className="home-why-box"
+                  data-aos="fade-up"
+                  data-aos-duration="900"
+                  data-aos-delay="200"
+                >
                   <img
                     src="/assets/images/why-choose-us-01.webp"
                     alt="Frisky Panda"
@@ -106,7 +145,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="home-why-box">
+                <div
+                  className="home-why-box"
+                  data-aos="fade-up"
+                  data-aos-duration="900"
+                  data-aos-delay="500"
+                >
                   <img
                     src="/assets/images/why-choose-us-02.webp"
                     alt="Frisky Panda"
@@ -118,7 +162,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="home-why-box">
+                <div
+                  className="home-why-box"
+                  data-aos="fade-up"
+                  data-aos-duration="900"
+                  data-aos-delay="800"
+                >
                   <img
                     src="/assets/images/why-choose-us-03.webp"
                     alt="Frisky Panda"
@@ -128,7 +177,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-md-3">
-                <div className="home-why-box">
+                <div
+                  className="home-why-box"
+                  data-aos="fade-up"
+                  data-aos-duration="900"
+                  data-aos-delay="1100"
+                >
                   <img
                     src="/assets/images/why-choose-us-04.webp"
                     alt="Frisky Panda"
@@ -143,12 +197,18 @@ export default function Home() {
             <img src="/assets/images/top.png" alt="Frisky Panda" />
           </div>
         </section>
+
         {/* Activities Section */}
         <section className="home-activities pb-5">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-6 mb-4">
-                <div className="main-heading">
+                <div
+                  className="main-heading"
+                  data-aos="flip-left"
+                  data-aos-duration="900"
+                  data-aos-delay="300"
+                >
                   <img src="/assets/images/heading-activities.webp" alt="" />
                   {/* <h1>Activities@ Frisky Panda</h1> */}
                 </div>
@@ -156,7 +216,12 @@ export default function Home() {
             </div>
             <div className="row align-items-center justify-content-center">
               <div className="col-lg-3">
-                <div className="program-box-items">
+                <div
+                  className="program-box-items"
+                  data-aos="zoom-in"
+                  data-aos-duration="900"
+                  data-aos-delay="400"
+                >
                   <div className="program-bg"></div>
                   <div className="program-image">
                     <img
@@ -185,7 +250,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-3">
-                <div className="program-box-items">
+                <div
+                  className="program-box-items"
+                  data-aos="zoom-in"
+                  data-aos-duration="900"
+                  data-aos-delay="600"
+                >
                   <div className="program-bg green-bg"></div>
                   <div className="program-image">
                     <img
@@ -212,7 +282,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-3">
-                <div className="program-box-items">
+                <div
+                  className="program-box-items"
+                  data-aos="zoom-in"
+                  data-aos-duration="900"
+                  data-aos-delay="800"
+                >
                   <div className="program-bg blue-bg"></div>
                   <div className="program-image">
                     <img
@@ -238,7 +313,12 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-3">
-                <div className="program-box-items">
+                <div
+                  className="program-box-items"
+                  data-aos="zoom-in"
+                  data-aos-duration="900"
+                  data-aos-delay="1000"
+                >
                   <div className="program-bg yellow-bg"></div>
                   <div className="program-image">
                     <img

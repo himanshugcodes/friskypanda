@@ -10,7 +10,7 @@ export default function Home() {
         <section className="hero  d-flex justify-content-center align-items-center">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-md-6">
+              <div className="col-md-6" data-aos="fade-right">
                 <h1>Welcome to Frisky Panda.in</h1>
                 <p>
                   Join us for an unforgettable experience at our exclusive
@@ -24,6 +24,7 @@ export default function Home() {
                   <div className="hero-shape1">
                     <Image
                       src="/assets/images/hero/panda1.png"
+                      data-aos="fade-down"
                       width={220}
                       height={226}
                       alt="Frisky Panda"
@@ -31,6 +32,7 @@ export default function Home() {
                   </div>
                   <Image
                     className=""
+                    data-aos="zoom-in"
                     src="/assets/images/hero/hero-1.png"
                     width={370}
                     height={450}
@@ -39,6 +41,7 @@ export default function Home() {
                   <div className="hero-shape2">
                     <Image
                       src="/assets/images/hero/panda2.png"
+                      data-aos="fade-up"
                       width={220}
                       height={226}
                       alt="Frisky Panda"
@@ -79,7 +82,9 @@ export default function Home() {
               <div className="col-md-8">
                 <div className="main-heading">
                   {/* <h5 className="mt-5">Why Choose Us</h5> */}
-                  <h1 className="">Why Choose Us</h1>
+                  <h1 className="" data-aos="fade-up">
+                    Why Choose Us
+                  </h1>
                   {/* <p>
                   Join us for an unforgettable experience at our exclusive
                   indoor playground, where our master pandas curate themed
@@ -93,7 +98,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="home-why-box">
                   <img
-                    src="/assets/images/why-choose-us-01.png"
+                    src="/assets/images/why-choose-us-01.webp"
                     alt="Frisky Panda"
                   />
                   <h4 className="pt-2 pt-md-4">Indoor Playground</h4>
@@ -103,7 +108,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="home-why-box">
                   <img
-                    src="/assets/images/why-choose-us-02.png"
+                    src="/assets/images/why-choose-us-02.webp"
                     alt="Frisky Panda"
                   />
                   <h4 className="pt-2 pt-md-4">CCTV Supervision</h4>
@@ -115,7 +120,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="home-why-box">
                   <img
-                    src="/assets/images/why-choose-us-03.png"
+                    src="/assets/images/why-choose-us-03.webp"
                     alt="Frisky Panda"
                   />
                   <h4 className="pt-2 pt-md-4">Frisky Panda cafe</h4>
@@ -125,7 +130,7 @@ export default function Home() {
               <div className="col-md-3">
                 <div className="home-why-box">
                   <img
-                    src="/assets/images/why-choose-us-04.png"
+                    src="/assets/images/why-choose-us-04.webp"
                     alt="Frisky Panda"
                   />
                   <h4 className="pt-2 pt-md-4">Fun Activities</h4>
@@ -144,7 +149,7 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-md-6 mb-4">
                 <div className="main-heading">
-                  <img src="/assets/images/heading-activities.png" alt="" />
+                  <img src="/assets/images/heading-activities.webp" alt="" />
                   {/* <h1>Activities@ Frisky Panda</h1> */}
                 </div>
               </div>
@@ -156,7 +161,7 @@ export default function Home() {
                   <div className="program-image">
                     <img
                       className="img-fluid"
-                      src="assets/images/activity-01.jpg"
+                      src="assets/images/activity-01.webp"
                       alt="img"
                     />
                   </div>
@@ -185,7 +190,7 @@ export default function Home() {
                   <div className="program-image">
                     <img
                       className="img-fluid"
-                      src="assets/images/activity-01.jpg"
+                      src="assets/images/activity-02.png"
                       alt="img"
                     />
                   </div>
@@ -212,7 +217,7 @@ export default function Home() {
                   <div className="program-image">
                     <img
                       className="img-fluid"
-                      src="assets/images/activity-01.jpg"
+                      src="assets/images/activity-03.webp"
                       alt="img"
                     />
                   </div>
@@ -238,7 +243,7 @@ export default function Home() {
                   <div className="program-image">
                     <img
                       className="img-fluid"
-                      src="assets/images/activity-01.jpg"
+                      src="assets/images/activity-04.webp"
                       alt="img"
                     />
                   </div>
@@ -501,7 +506,7 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-md-6 mb-4">
                 <div className="main-heading">
-                  <img src="/assets/images/heading-gallery.png" alt="" />
+                  <img src="/assets/images/heading-gallery.webp" alt="" />
                   {/* <h1>Gallery</h1> */}
                 </div>
               </div>

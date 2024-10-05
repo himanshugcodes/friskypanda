@@ -276,6 +276,32 @@ const footer = () => {
           </div>
         </div>
       </section>
+
+      <div className="tpt">
+        <div className="call">
+          <a href="tel:9839864444" target="blank">
+            <Image
+              width={53}
+              height={53}
+              src="/assets/images/call2.png"
+              alt="image"
+            />
+          </a>
+        </div>
+        <div className="whatsapp">
+          <a
+            href="https://api.whatsapp.com/send?phone=919839864444&text=Hello,"
+            target="blank"
+          >
+            <Image
+              width={53}
+              height={53}
+              src="/assets/images/whatsapp.png"
+              alt="image"
+            />
+          </a>
+        </div>
+      </div>
     </>
   );
 };

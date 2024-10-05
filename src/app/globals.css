@@ -978,6 +978,7 @@ dl {
   }
   .main-heading h1 {
     font-size: 38px;
+    margin-bottom: 30px;
   }
   .section-padding {
     padding: 70px 0;
@@ -1029,9 +1030,11 @@ dl {
     left: 50%;
     transform: translate(-50%);
   }
-
   .hero-img {
     margin: 38px 0;
+  }
+  .bg-section-padding {
+    padding: 80px 0;
   }
   .home-why-box img {
     width: 180px;
@@ -1054,10 +1057,6 @@ dl {
     background-position: 100% 17% !important;
     background-repeat: no-repeat !important;
   }
-
-  .program-box-items .program-content {
-    padding: 0 0 36px 0px;
-  }
   .program-box-items {
     position: relative;
     max-width: 270px;
@@ -1079,6 +1078,16 @@ dl {
     color: #ea512e;
     margin-bottom: 0;
     font-family: var(--secondary-font);
+    line-height: 60px;
+  }
+  .event-box-item .event-date {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .event-box-item .event-content .event-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 12px;
   }
   .home-gallery {
     text-align: center;

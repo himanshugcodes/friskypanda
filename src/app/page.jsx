@@ -431,7 +431,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 order-1 order-md-0">
                       <div className="event-content">
                         <h3>
                           <a href="#">Little Monsters Bash </a>
@@ -453,7 +453,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-3 order-0 order-md-1">
                       <div className="event-date">
                         <h4>31 </h4>
                         <span>October</span>
@@ -483,7 +483,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 order-1 order-md-0">
                       <div className="event-content">
                         <h3>
                           <a href="#">Joyful Junior Diwali Delight</a>
@@ -505,7 +505,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-3 order-0 order-md-1">
                       <div className="event-date">
                         <h4> 03 </h4>
                         <span>November</span>
@@ -535,7 +535,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 order-1 order-md-0">
                       <div className="event-content">
                         <h3>
                           <a href="#">Fun-Tastic Fiesta </a>
@@ -557,7 +557,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-3 order-0 order-md-1">
                       <div className="event-date">
                         <h4>14</h4>
                         <span>November</span>
@@ -587,7 +587,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-6">
+                    <div className="col-md-6 order-1 order-md-0">
                       <div className="event-content">
                         <h3>
                           <a href="#">Jolly Jingles Party</a>
@@ -609,7 +609,7 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-md-3 order-0 order-md-1">
                       <div className="event-date">
                         <h4>25 </h4>
                         <span>December</span>

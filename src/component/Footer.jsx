@@ -6,225 +6,277 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaLinkedinIn,
+  FaMailBulk,
+  FaMailchimp,
   FaPhoneAlt,
   FaRegMap,
   FaTwitter,
+  FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
 
 const footer = () => {
   return (
-    <footer className="footer-section">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4 pe-md-2">
-            <div className="single-footer">
-              <Link href="/">
-                <Image
-                  src="/assets/images/logo.png"
-                  width={150}
-                  height={154}
-                  alt="Frisky Panda"
-                />
-              </Link>
-              <p className="mt-3">
-                Join us for an unforgettable experience at our exclusive indoor
-                playground, where our master pandas curate themed birthday
-                parties that will leave your little ones beaming with joy!
-              </p>
-            </div>
-          </div>
-          <div className="col-6 col-md-2 ps-md-5">
-            <div className="single-footer ps-md-2">
-              <div className="single-footer-head">
-                <h3>Quick Links</h3>
+    <>
+      <footer className="footer-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4 pe-md-2">
+              <div className="single-footer">
+                <Link href="/">
+                  <Image
+                    src="/assets/images/logo.png"
+                    width={150}
+                    height={154}
+                    alt="Frisky Panda"
+                  />
+                </Link>
+                <p className="mt-3">
+                  Join us for an unforgettable experience at our exclusive
+                  indoor playground, where our master pandas curate themed
+                  birthday parties that will leave your little ones beaming with
+                  joy!
+                </p>
               </div>
-              <ul className="quick-links">
-                {/* <li>
+            </div>
+            <div className="col-6 col-md-2 ps-md-5">
+              <div className="single-footer ps-md-2">
+                <div className="single-footer-head">
+                  <h3>Quick Links</h3>
+                </div>
+                <ul className="quick-links">
+                  {/* <li>
                   <Link href="">Home</Link>
                 </li> */}
-                <li>
-                  <Link href="">
-                    <FaAngleRight /> About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight /> Birthday Parties
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Events
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Cafe
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Gallery
-                  </Link>
-                </li>
-                {/* <li>
+                  <li>
+                    <Link href="">
+                      <FaAngleRight /> About Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight /> Birthday Parties
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Events
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Cafe
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Gallery
+                    </Link>
+                  </li>
+                  {/* <li>
                   <Link href="">Membership</Link>
                 </li> */}
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Contact Us
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-6  col-md-3 ps-md-5">
-            <div className="single-footer ms-md-5">
-              <div className="single-footer-head">
-                <h3>Other Links</h3>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Contact Us
+                    </Link>
+                  </li>
+                </ul>
               </div>
-              <ul className="quick-links">
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Membership
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Frisky Panda Rules
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Careers
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    FAQ
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Disclaimer
-                  </Link>
-                </li>
-                <li>
-                  <Link href="">
-                    {" "}
-                    <FaAngleRight />
-                    Privacy Policy
-                  </Link>
-                </li>
-              </ul>
             </div>
-          </div>
-          <div className="col-md-3 ps-md-5">
-            <div className="single-footer footer-add">
-              <div className="single-footer-head">
-                <h3>Contact Us</h3>
+            <div className="col-6  col-md-3 ps-md-5">
+              <div className="single-footer ms-md-5">
+                <div className="single-footer-head">
+                  <h3>Other Links</h3>
+                </div>
+                <ul className="quick-links">
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Membership
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Frisky Panda Rules
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Careers
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      FAQ
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Disclaimer
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="">
+                      {" "}
+                      <FaAngleRight />
+                      Privacy Policy
+                    </Link>
+                  </li>
+                </ul>
               </div>
-              <ul className="footer-contact">
-                <li>
-                  <i>
-                    <FaPhoneAlt />
-                  </i>
-                  <a href="tel:9876543211">9876543211</a> ,
-                  <a href="tel:9876543211">9876543211</a>
-                </li>
-                <li>
-                  <i>
-                    <FaEnvelope />
-                  </i>
+            </div>
+            <div className="col-md-3 ps-md-5">
+              <div className="single-footer footer-add">
+                <div className="single-footer-head">
+                  <h3>Contact Us</h3>
+                </div>
+                <ul className="footer-contact">
+                  <li>
+                    <i>
+                      <FaPhoneAlt />
+                    </i>
+                    <a href="tel:9876543211">9876543211</a> ,
+                    <a href="tel:9876543211">9876543211</a>
+                  </li>
+                  <li>
+                    <i>
+                      <FaEnvelope />
+                    </i>
 
-                  <a href="mailto:info@friskypanda.in">info@friskypanda.in</a>
-                </li>
-                <li>
-                  <i>
-                    <FaRegMap />
-                  </i>
-                  <a href="">
-                    Plot No. A-1/1, Sector-H,Aliganj Street and City Expansion
-                    Scheme Ward - Bajrang Bali, Lucknow
-                  </a>
-                </li>
-              </ul>
+                    <a href="mailto:info@friskypanda.in">info@friskypanda.in</a>
+                  </li>
+                  <li>
+                    <i>
+                      <FaRegMap />
+                    </i>
+                    <a href="">
+                      Plot No. A-1/1, Sector-H,Aliganj Street and City Expansion
+                      Scheme Ward - Bajrang Bali, Lucknow
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="footer-bottom">
-        <div className="bottom-shape-footer">
-          <img src="assets/images/footer-bottom.png" alt="shape-img" />
-        </div>
-        <div className="container">
-          <div className="footer-wrapper d-flex align-items-center justify-content-between flex-wrap">
-            <p className="footer-copyright mb-0 pb-3 pb-md-0">
-              © 2024 <a href="https://friskypanda.in/">Frisky Panda</a>
-            </p>
-            <div className="footer-global-social">
-              {/* <h3>Connect with us</h3> */}
-              <ul className="footer-global-social-link">
-                <li>
-                  <a href="#" target="blank">
-                    <i>
-                      <FaFacebookF />
-                    </i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" target="blank">
-                    <i>
-                      <FaLinkedinIn />
-                    </i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" target="blank">
-                    <i>
-                      <FaTwitter />
-                    </i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" target="blank">
-                    <i>
-                      <FaYoutube />
-                    </i>
-                  </a>
-                </li>
-              </ul>
+        <div className="footer-bottom">
+          <div className="bottom-shape-footer">
+            <img src="assets/images/footer-bottom.png" alt="shape-img" />
+          </div>
+          <div className="container">
+            <div className="footer-wrapper d-flex align-items-center justify-content-between flex-wrap">
+              <p className="footer-copyright mb-0 pb-3 pb-md-0">
+                © 2024 <a href="https://friskypanda.in/">Frisky Panda</a>
+              </p>
+              <div className="footer-global-social">
+                {/* <h3>Connect with us</h3> */}
+                <ul className="footer-global-social-link">
+                  <li>
+                    <a href="#" target="blank">
+                      <i>
+                        <FaFacebookF />
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="blank">
+                      <i>
+                        <FaLinkedinIn />
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="blank">
+                      <i>
+                        <FaTwitter />
+                      </i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" target="blank">
+                      <i>
+                        <FaYoutube />
+                      </i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
-        {/* <a href="#" id="scrollUp" className="scroll-icon">
+          {/* <a href="#" id="scrollUp" className="scroll-icon">
           <i className="far fa-arrow-up"></i>
         </a> */}
-      </div>
-      <div className="bottom-shape">
-        <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
-      </div>
-    </footer>
+        </div>
+        <div className="bottom-shape">
+          <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
+        </div>
+      </footer>
+
+      <section className="mobile-footer">
+        <div className="container-fluid">
+          <div className="row align-item-center justify-content-center">
+            <div className="col-4 box">
+              <a href="tel:9839864444">
+                {/* <img
+                  src="/assets/img/facility-icon1.png"
+                  className="img-fluid"
+                  alt=""
+                /> */}
+                <i>
+                  <FaPhoneAlt />
+                </i>
+                <p> Call</p>
+              </a>
+            </div>
+            <div className="col-4 box">
+              <a href="https://api.whatsapp.com/send?phone=919839864444&text=Hello,">
+                {/* <img
+                  src="/assets/img/facility-icon2.png"
+                  className="img-fluid"
+                  alt=""
+                /> */}
+                <i>
+                  <FaWhatsapp />
+                </i>
+                <p> Whatsapp</p>
+              </a>
+            </div>
+            <div className="col-4 box">
+              <a href="mailto:info@friskypanda.in">
+                {/* <img
+                  src="/assets/img/facility-icon3.png"
+                  className="img-fluid"
+                  alt=""
+                /> */}
+                <i>
+                  <FaMailBulk />
+                </i>
+                <p> Mail</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 

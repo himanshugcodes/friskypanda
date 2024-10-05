@@ -845,6 +845,42 @@ dl {
   top: -1px;
   z-index: 99;
 }
+
+/*--Mobile footer--*/
+.mobile-footer {
+  padding: 10px;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  width: 100%;
+  box-shadow: -6px -8px 15px #cccccc40;
+  opacity: 1;
+  background-color: var(--white-color);
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.box a p {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 0px;
+}
+.box a i {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.box a img {
+  width: 28px;
+}
+
 /* Galllery */
 .home-gallery {
   position: relative;

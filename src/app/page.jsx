@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaRegClock, FaMapMarker } from "react-icons/fa";
+import { FaRegClock, FaMapMarker, FaArrowRight } from "react-icons/fa";
 import Gallery from "../component/Gallery";
 
 export default function Home() {
@@ -16,11 +16,11 @@ export default function Home() {
 
         <section className="hero  d-flex justify-content-center align-items-center">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center mt-5 mb-2">
               <div
                 className="col-md-6"
                 data-aos="fade-right"
-                data-aos-duration="1200"
+                data-aos-duration="1000"
                 data-aos-delay="100"
               >
                 <h1>Welcome to Frisky Panda.in</h1>
@@ -30,6 +30,14 @@ export default function Home() {
                   birthday parties that will leave your little ones beaming with
                   joy!
                 </p>
+                <a href="/contact" className="theme-btn">
+                  <span>
+                    Book Now
+                    <i>
+                      <FaArrowRight />
+                    </i>
+                  </span>
+                </a>
               </div>
               <div className="col-md-6 pt-md-5 pb-md-4 ">
                 <div className="hero-img">
@@ -49,7 +57,7 @@ export default function Home() {
                     />
                   </div>
                   <Image
-                    className=""
+                    className="bounce-x"
                     data-aos="zoom-in"
                     src="/assets/images/hero/hero-1.png"
                     width={370}
@@ -69,15 +77,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          {/* <div className="hero-baloon-shape">
-          <Image
-            src="/assets/images/hero/cloud.svg"
-            width={332}
-            height={215}
-            alt="Frisky Panda"
-          />
-        </div> */}
-
+          {/* hero shapes */}
           <div className="baloon-shape float-bob-y">
             <img
               src="assets/images/hero/baloons2.png"
@@ -96,7 +96,7 @@ export default function Home() {
               data-aos-delay="900"
             />
           </div>
-          <div className="hero-shape-traingle ">
+          <div className="hero-shape-traingle">
             <img
               src="/assets/images/hero/hero-triangle.svg"
               alt="Frisky Panda"
@@ -105,12 +105,22 @@ export default function Home() {
               data-aos-delay="900"
             />
           </div>
+          <div className="hero-shape-playarea ">
+            <img
+              src="/assets/images/hero/play_area.webp"
+              alt="Frisky Panda"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              data-aos-delay="900"
+            />
+          </div>
           <div className="bottom-shape">
             <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
           </div>
         </section>
+
         {/* About Section */}
-        <section className="home-why section-padding">
+        <section className="home-why bg-section-padding">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-8">
@@ -137,6 +147,7 @@ export default function Home() {
                   data-aos-delay="200"
                 >
                   <img
+                    className="mb-md-2"
                     src="/assets/images/why-choose-us-01.webp"
                     alt="Frisky Panda"
                   />
@@ -187,7 +198,7 @@ export default function Home() {
                     src="/assets/images/why-choose-us-04.webp"
                     alt="Frisky Panda"
                   />
-                  <h4 className="pt-2 pt-md-4">Fun Activities</h4>
+                  <h4 className="pt-2 pt-md-2">Fun Activities</h4>
                   <p>Let our pandas entertain your kids with fun activities</p>
                 </div>
               </div>
@@ -210,7 +221,6 @@ export default function Home() {
                   data-aos-delay="300"
                 >
                   <img src="/assets/images/heading-activities.webp" alt="" />
-                  {/* <h1>Activities@ Frisky Panda</h1> */}
                 </div>
               </div>
             </div>
@@ -236,15 +246,23 @@ export default function Home() {
                         Birthday Bonanza <br /> Special
                       </a>
                     </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur. Convallis</p>
+                    <p>
+                      Join us for an unforgettable experience at our exclusive
+                    </p>
                     {/* <p>
                     Join us for an unforgettable experience at our exclusive
                     indoor playground, where our master pandas curate themed
                     birthday parties that will leave your little ones beaming
                     with joy!
                   </p> */}
-                    <a href="" className="arrow-icon">
-                      <i className="fa-solid fa-arrow-right-long"></i>
+                    <a
+                      href=""
+                      className="program-one__item__rm"
+                      title="Read More"
+                    >
+                      <span>
+                        <FaArrowRight />
+                      </span>
                     </a>
                   </div>
                 </div>
@@ -268,15 +286,24 @@ export default function Home() {
                     <h4>
                       <a href="">Exclusive Indoor Play Area</a>
                     </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur. Convallis</p>
+                    <p>
+                      Walk-in for exclusive fun-filled soft play activities
+                      which Boosts Physical
+                    </p>
                     {/* <p>
                     Walk-in for exclusive fun-filled soft play activities
-                    whichBoosts Physical Activity,Encourages Social
+                    which Boosts Physical Activity,Encourages Social
                     Interaction,Sensory Stimulation,Cognitive
                     Development,Nurtures Parent-Child Connection
                   </p> */}
-                    <a href="" className="arrow-icon">
-                      <i className="fa-solid fa-arrow-right-long"></i>
+                    <a
+                      href=""
+                      className="program-one__item__rm green-bg-btn"
+                      title="Read More"
+                    >
+                      <span>
+                        <FaArrowRight />
+                      </span>
                     </a>
                   </div>
                 </div>
@@ -300,14 +327,22 @@ export default function Home() {
                     <h4>
                       <a href="">Mesmerizing Kitty Party Experience </a>
                     </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur. Convallis</p>
+                    <p>
+                      Let our pandas entertain your kids with fun activities
+                    </p>
                     {/* <p>
                     Let our pandas entertain your kids with fun activities while
                     you socialize with friends, and Savor tantalizing
                     finger-licking food and fresh beverages
                   </p> */}
-                    <a href="" className="arrow-icon">
-                      <i className="fa-solid fa-arrow-right-long"></i>
+                    <a
+                      href=""
+                      className="program-one__item__rm blue-bg-btn"
+                      title="Read More"
+                    >
+                      <span>
+                        <FaArrowRight />
+                      </span>
                     </a>
                   </div>
                 </div>
@@ -331,63 +366,57 @@ export default function Home() {
                     <h4>
                       <a href="">Fun & fitness for Moms & kids </a>
                     </h4>
-                    <p>Lorem ipsum dolor sit amet consectetur. Convallis</p>
+                    <p>
+                      Enjoy personalized sessions in Yoga, Zumba, Tabata, sound
+                      healing
+                    </p>
                     {/* <p>
                     Enjoy personalized sessions in Yoga, Zumba, Tabata, sound
                     healing, and more, designed for health, bonding, and fun
                     together!
                   </p> */}
-                    <a href="" className="arrow-icon">
-                      <i className="fa-solid fa-arrow-right-long"></i>
+                    <a
+                      href=""
+                      className="program-one__item__rm yellow-bg-btn"
+                      title="Read More"
+                    >
+                      <span>
+                        <FaArrowRight />
+                      </span>
                     </a>
                   </div>
                 </div>
               </div>
-              {/* <div className="col-lg-3">
-              <div className="program-box-items">
-                <div className="program-bg"></div>
-                <div className="program-image">
-                  <img
-                    className="img-fluid"
-                    src="assets/images/activity-01.jpg"
-                    alt="img"
-                  />
-                </div>
-                <div className="program-content text-center">
-                  <h4>
-                    <a href="">
-                      Fisky Panda <br /> Cafe{" "}
-                    </a>
-                  </h4>
-                  <p>
-                    Enjoy a mouthwatering menu that will delight both kids and adults. From classic favorites to innovative twists, our dishes are crafted to satisfy your cravings. Specially curated healthy meal options dished out by our Master Pandas!!
-
-                  </p>
-                  <a href="" className="arrow-icon">
-                    <i className="fa-solid fa-arrow-right-long"></i>
-                  </a>
-                </div>
-              </div>
-            </div> */}
             </div>
           </div>
           <div className="bottom-shape">
             <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
           </div>
         </section>
+
         {/* Event Section */}
-        <section className="home-event section-padding">
+        <section className="home-event bg-section-padding">
           <div className="container-fluid">
             <div className="row justify-content-center">
               <div className="col-md-8">
-                <div className="main-heading">
+                <div
+                  className="main-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="900"
+                  data-aos-delay="300"
+                >
                   <h1 className="text-white">Upcoming Events</h1>
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-6">
-                <div className="event-box-item">
+                <div
+                  className="event-box-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="400"
+                >
                   <div className="row align-items-center">
                     <div className="col-md-3">
                       <div className="event-image">
@@ -405,7 +434,7 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="event-content">
                         <h3>
-                          <a href="#">Little Monster`s bash </a>
+                          <a href="#">Little Monsters Bash </a>
                         </h3>
                         <ul className="event-list">
                           <li>
@@ -418,7 +447,7 @@ export default function Home() {
                             <i>
                               <FaMapMarker />
                             </i>
-                            New York 56 Glassford Street
+                            Plot No. A-1/1, Sector-H, Aliganj
                           </li>
                         </ul>
                       </div>
@@ -427,14 +456,19 @@ export default function Home() {
                     <div className="col-md-3">
                       <div className="event-date">
                         <h4>31 </h4>
-                        <span>Oct</span>
+                        <span>October</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="event-box-item">
+                <div
+                  className="event-box-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="400"
+                >
                   <div className="row align-items-center">
                     <div className="col-md-3">
                       <div className="event-image">
@@ -442,7 +476,7 @@ export default function Home() {
                           <Image
                             width={134}
                             height={134}
-                            src="/assets/images/event-1.png"
+                            src="/assets/images/event-2.png"
                             alt="image"
                           />
                         </a>
@@ -452,7 +486,7 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="event-content">
                         <h3>
-                          <a href="#">Joyful Junior Diwali. Delight</a>
+                          <a href="#">Joyful Junior Diwali Delight</a>
                         </h3>
                         <ul className="event-list">
                           <li>
@@ -465,7 +499,7 @@ export default function Home() {
                             <i>
                               <FaMapMarker />
                             </i>
-                            New York 56 Glassford Street
+                            Plot No. A-1/1, Sector-H, Aliganj
                           </li>
                         </ul>
                       </div>
@@ -473,15 +507,20 @@ export default function Home() {
 
                     <div className="col-md-3">
                       <div className="event-date">
-                        <h4>3 </h4>
-                        <span>Nov</span>
+                        <h4> 03 </h4>
+                        <span>November</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="event-box-item">
+                <div
+                  className="event-box-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="400"
+                >
                   <div className="row align-items-center">
                     <div className="col-md-3">
                       <div className="event-image">
@@ -489,7 +528,7 @@ export default function Home() {
                           <Image
                             width={134}
                             height={134}
-                            src="/assets/images/event-1.png"
+                            src="/assets/images/event-3.png"
                             alt="image"
                           />
                         </a>
@@ -512,7 +551,7 @@ export default function Home() {
                             <i>
                               <FaMapMarker />
                             </i>
-                            New York 56 Glassford Street
+                            Plot No. A-1/1, Sector-H, Aliganj
                           </li>
                         </ul>
                       </div>
@@ -521,14 +560,19 @@ export default function Home() {
                     <div className="col-md-3">
                       <div className="event-date">
                         <h4>14</h4>
-                        <span>Nov</span>
+                        <span>November</span>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="event-box-item">
+                <div
+                  className="event-box-item"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                  data-aos-delay="400"
+                >
                   <div className="row align-items-center">
                     <div className="col-md-3">
                       <div className="event-image">
@@ -536,7 +580,7 @@ export default function Home() {
                           <Image
                             width={134}
                             height={134}
-                            src="/assets/images/event-1.png"
+                            src="/assets/images/event-4.png"
                             alt="image"
                           />
                         </a>
@@ -546,7 +590,7 @@ export default function Home() {
                     <div className="col-md-6">
                       <div className="event-content">
                         <h3>
-                          <a href="#">Jolly jingles party</a>
+                          <a href="#">Jolly Jingles Party</a>
                         </h3>
                         <ul className="event-list">
                           <li>
@@ -559,7 +603,7 @@ export default function Home() {
                             <i>
                               <FaMapMarker />
                             </i>
-                            New York 56 Glassford Street
+                            Plot No. A-1/1, Sector-H, Aliganj.
                           </li>
                         </ul>
                       </div>
@@ -568,7 +612,7 @@ export default function Home() {
                     <div className="col-md-3">
                       <div className="event-date">
                         <h4>25 </h4>
-                        <span>Dec</span>
+                        <span>December</span>
                       </div>
                     </div>
                   </div>
@@ -585,7 +629,12 @@ export default function Home() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-6 mb-4">
-                <div className="main-heading">
+                <div
+                  className="main-heading"
+                  data-aos="flip-left"
+                  data-aos-duration="900"
+                  data-aos-delay="300"
+                >
                   <img src="/assets/images/heading-gallery.webp" alt="" />
                   {/* <h1>Gallery</h1> */}
                 </div>

@@ -179,8 +179,8 @@ const footer = () => {
         </div>
         <div className="container">
           <div className="footer-wrapper d-flex align-items-center justify-content-between flex-wrap">
-            <p className="mb-0 pb-3 pb-md-0">
-              © All Copyright 2024 by <a href="">Frisky Panda</a>
+            <p className="footer-copyright mb-0 pb-3 pb-md-0">
+              © 2024 <a href="https://friskypanda.in/">Frisky Panda</a>
             </p>
             <div className="footer-global-social">
               {/* <h3>Connect with us</h3> */}

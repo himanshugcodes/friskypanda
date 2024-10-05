@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import { FaPlus, FaSearch } from "react-icons/fa";
 
 const Gallery = () => {
   useEffect(() => {
@@ -11,45 +12,125 @@ const Gallery = () => {
 
   return (
     <div className="row justify-content-center g-4 ">
-      <div className="col-md-3">
-        <a href="assets/images/gallery-1.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-1.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-1.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-1.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
-      <div className="col-md-3">
-        <a href="assets/images/gallery-2.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-2.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-2.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-2.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
-      <div className="col-md-3">
-        <a href="assets/images/gallery-3.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-3.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-3.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-3.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
-      <div className="col-md-3">
-        <a href="assets/images/gallery-3.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-3.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-4.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-4.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
-      <div className="col-md-3">
-        <a href="assets/images/gallery-3.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-3.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-5.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-5.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
-      <div className="col-md-3">
-        <a href="assets/images/gallery-3.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-3.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-6.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-6.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
-      <div className="col-md-3">
-        <a href="assets/images/gallery-2.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-2.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-1.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-1.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
-      <div className="col-md-3">
-        <a href="assets/images/gallery-1.png" data-fancybox="gallery">
-          <img src="assets/images/gallery-1.png" alt="Thumbnail 1" />
-        </a>
+      <div
+        className="col-md-3"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-delay="300"
+      >
+        <div className="one__card">
+          <a href="assets/images/gallery-2.jpg" data-fancybox="gallery">
+            <img src="assets/images/gallery-2.jpg" alt="Thumbnail 1" />
+            <span className="gallery-one__card__icon">
+              <FaSearch />{" "}
+            </span>
+          </a>
+        </div>
       </div>
     </div>
   );

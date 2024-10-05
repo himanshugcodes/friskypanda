@@ -18,9 +18,9 @@ const Header = () => {
               <div className="logo">
                 <Link href="/">
                   <Image
-                    src="/assets/images/logo.png"
-                    width={150}
-                    height={154}
+                    src="/assets/images/logo2.svg"
+                    width={100}
+                    height={104}
                     alt="Frisky Panda"
                   />
                 </Link>
@@ -29,7 +29,7 @@ const Header = () => {
             <div className="col-lg-9 d-flex justify-content-end">
               <nav className="navigation">
                 <ul>
-                  <li>
+                  <li className="active">
                     <Link href="/">Home</Link>
                   </li>
                   <li>

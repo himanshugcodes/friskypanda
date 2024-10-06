@@ -619,6 +619,24 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="row justify-content-center">
+              <div className="col-md-12 text-center">
+                <a
+                  href="/contact"
+                  className="theme-btn"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                >
+                  <span>
+                    Book Now
+                    <i>
+                      <FaArrowRight />
+                    </i>
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
           <div className="bottom-shape">
             <img src="/assets/images/top.png" alt="Frisky Panda" />

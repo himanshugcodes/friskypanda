@@ -3,7 +3,7 @@ import React from "react";
 const QuoteForm = () => {
   return (
     <>
-      <section className="quote-area bg-item ptb-100">
+      <section className="quote-area bg-item section-padding">
         <div className="container">
           <div className="quote-item item-two">
             <div className="content">

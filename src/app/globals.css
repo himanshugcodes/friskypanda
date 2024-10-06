@@ -1586,13 +1586,57 @@ dl {
 /*--------------------------------------------------------------
 # Quotaion Form
 --------------------------------------------------------------*/
+.quote-area.bg-item {
+  background-image: url(http://localhost:3000/assets/images/quote-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.quote-item.item-two {
+  max-width: 750px;
+  margin-left: auto;
+}
+.quote-item {
+  background-color: #ffffff;
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+  padding: 50px;
+}
+.quote-item .content {
+  margin-bottom: 30px;
+}
+.quote-item .content span {
+  font-size: 20px;
+  color: #ea512e;
+  font-weight: 600;
+  font-family: "Sacramento", cursive;
+}
+.quote-item .content h3 {
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.quote-item form .form-group {
+  margin-bottom: 15px;
+}
+.quote-item form .form-group .form-control {
+  height: 70px;
+  color: #1b0238;
+  box-shadow: unset !important;
+  border: 1px solid #eeeeee;
+  background-color: transparent;
+  transition: 0.5s;
+  border-radius: 10px;
+  padding: 0 0 0 15px;
+  font-weight: 500;
+}
 /*--------------------------------------------------------------
 # breadcrumb
 --------------------------------------------------------------*/
 .breadcrumb-wrapper {
   position: relative;
   overflow: hidden;
-  background: url(http://localhost:3000/assets/images/breadcrumb.png);
+  background: url(https://friskypanda.vercel.app/assets/images/breadcrumb.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

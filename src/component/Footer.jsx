@@ -47,32 +47,32 @@ const footer = () => {
                   <Link href="">Home</Link>
                 </li> */}
                   <li>
-                    <Link href="">
+                    <Link href="/about">
                       <FaAngleRight /> About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/birthday-parties">
                       {" "}
                       <FaAngleRight /> Birthday Parties
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/events">
                       {" "}
                       <FaAngleRight />
                       Events
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/cafe">
                       {" "}
                       <FaAngleRight />
                       Cafe
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/gallery">
                       {" "}
                       <FaAngleRight />
                       Gallery
@@ -82,7 +82,7 @@ const footer = () => {
                   <Link href="">Membership</Link>
                 </li> */}
                   <li>
-                    <Link href="">
+                    <Link href="/contact">
                       {" "}
                       <FaAngleRight />
                       Contact Us
@@ -98,7 +98,7 @@ const footer = () => {
                 </div>
                 <ul className="quick-links">
                   <li>
-                    <Link href="">
+                    <Link href="/memberships">
                       {" "}
                       <FaAngleRight />
                       Membership
@@ -224,9 +224,9 @@ const footer = () => {
           <i className="far fa-arrow-up"></i>
         </a> */}
         </div>
-        <div className="bottom-shape">
+        {/* <div className="bottom-shape">
           <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
-        </div>
+        </div> */}
       </footer>
       <ContactButtons />
 

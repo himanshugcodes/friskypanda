@@ -36,22 +36,22 @@ const Header = () => {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="/">Birthday Parties</Link>
+                    <Link href="/birthday-parties">Birthday Parties</Link>
                   </li>
                   <li>
-                    <Link href="/">Events</Link>
+                    <Link href="/events">Events</Link>
                   </li>
                   <li>
-                    <Link href="/">Cafe</Link>
+                    <Link href="/cafe">Cafe</Link>
                   </li>
                   <li>
-                    <Link href="/">Gallery</Link>
+                    <Link href="/gallery">Gallery</Link>
                   </li>
                   <li>
-                    <Link href="/">Membership</Link>
+                    <Link href="/memberships">Membership</Link>
                   </li>
                   <li>
-                    <Link href="/">Contact Us</Link>
+                    <Link href="/contact">Contact Us</Link>
                   </li>
                 </ul>
               </nav>
@@ -107,22 +107,22 @@ const Header = () => {
                   <Link href="/about">About Us</Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
-                  <Link href="/">Birthday Parties</Link>
+                  <Link href="/birthday-parties">Birthday Parties</Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
-                  <Link href="/">Events</Link>
+                  <Link href="/events">Events</Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
-                  <Link href="/">Cafe</Link>
+                  <Link href="/cafe">Cafe</Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
-                  <Link href="/">Gallery</Link>
+                  <Link href="/gallery">Gallery</Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
-                  <Link href="/">Membership</Link>
+                  <Link href="/memberships">Membership</Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
-                  <Link href="/">Contact Us</Link>
+                  <Link href="/contact">Contact Us</Link>
                 </li>
               </ul>
             </div>

@@ -1,18 +1,32 @@
 import React from "react";
+import { FaArrowRight } from "react-icons/fa";
 
 const QuoteForm = () => {
   return (
     <>
-      <section className="quote-area bg-item section-padding">
+      <section className="quote-area bg-item bg-section-padding" id="quote">
         <div className="container">
           <div className="quote-item item-two">
-            <div className="content">
-              <span>Get a Quote</span>
-              <h3>Online Class Registration</h3>
+            <div className="row justify-content-center">
+              <div className="col-md-8">
+                <div
+                  className="main-heading"
+                  data-aos="fade-up"
+                  data-aos-duration="900"
+                  data-aos-delay="100"
+                >
+                  <h1 className="text-white">Contact with us</h1>
+                </div>
+              </div>
             </div>
 
             <form>
-              <div className="form-group">
+              <div
+                className="form-group"
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="200"
+              >
                 <input
                   type="text"
                   className="form-control"
@@ -20,7 +34,25 @@ const QuoteForm = () => {
                 />
               </div>
 
-              <div className="form-group">
+              <div
+                className="form-group"
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="200"
+              >
+                <input
+                  type="text"
+                  className="form-control"
+                  placeholder="Mobile Number"
+                />
+              </div>
+
+              <div
+                className="form-group"
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="200"
+              >
                 <input
                   type="text"
                   className="form-control"
@@ -28,27 +60,42 @@ const QuoteForm = () => {
                 />
               </div>
 
-              <div className="form-group">
+              <div
+                className="form-group"
+                data-aos="fade-up"
+                data-aos-duration="900"
+                data-aos-delay="200"
+              >
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Studying Class"
+                  placeholder="Message"
                 />
               </div>
 
-              <div className="form-group">
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Type Your Requirements"
-                />
+              <div className="row justify-content-center">
+                <div className="col-md-12 text-center">
+                  <a
+                    href="/contact"
+                    className="theme-btn"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="200"
+                  >
+                    <span>
+                      Submit
+                      <i>
+                        <FaArrowRight />
+                      </i>
+                    </span>
+                  </a>
+                </div>
               </div>
-
-              <button type="submit" className="default-btn">
-                Submit Now
-              </button>
             </form>
           </div>
+        </div>
+        <div className="bottom-shape">
+          <img src="/assets/images/top.png" alt="Frisky Panda" />
         </div>
       </section>
     </>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { FaRegClock, FaMapMarker, FaArrowRight } from "react-icons/fa";
 import Gallery from "../component/Gallery";
+import QuoteForm from "../component/QuoteForm";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
                   birthday parties that will leave your little ones beaming with
                   joy!
                 </p>
-                <a href="/contact" className="theme-btn">
+                <a href="#quote" className="theme-btn">
                   <span>
                     Book Now
                     <i>
@@ -622,7 +623,7 @@ export default function Home() {
             <div className="row justify-content-center">
               <div className="col-md-12 text-center">
                 <a
-                  href="/contact"
+                  href="#quote"
                   className="theme-btn"
                   data-aos="fade-up"
                   data-aos-duration="1000"
@@ -660,7 +661,12 @@ export default function Home() {
             </div>
             <Gallery />
           </div>
+          <div className="bottom-shape">
+            <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
+          </div>
         </section>
+        {/* CTA Form */}
+        <QuoteForm />
       </div>
     </>
   );

@@ -21,7 +21,7 @@ body {
 }
 
 body {
-  color: #000;
+  color: var(--text-color);
   background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -70,7 +70,7 @@ dl {
   overflow: hidden;
 }
 .section-padding {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 .bg-section-padding {
   padding: 150px 0;
@@ -156,6 +156,7 @@ dl {
   z-index: 9;
   position: relative;
   padding-top: 5px;
+  padding-bottom: 5px;
 }
 .header .bottom-shape {
   position: absolute;
@@ -688,8 +689,8 @@ dl {
 # Footer
 --------------------------------------------------------------*/
 .footer-section {
-  padding: 150px 0 0 0;
-  background: #f4eee5;
+  padding: 80px 0 0 0;
+  background: #fff;
   position: relative;
 }
 .footer-section p {
@@ -1001,6 +1002,12 @@ dl {
 /* Galllery */
 .home-gallery {
   position: relative;
+}
+.home-gallery .bottom-shape {
+  position: absolute;
+  right: 0;
+  top: 99.8%;
+  z-index: 9;
 }
 /* .gallery-one__card img {
   transform: scale(1);
@@ -1587,18 +1594,36 @@ dl {
 # Quotaion Form
 --------------------------------------------------------------*/
 .quote-area.bg-item {
-  background-image: url(http://localhost:3000/assets/images/quote-bg.jpg);
+  background-image: url(https://friskypanda.vercel.app/assets/images/quote-bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  position: relative;
 }
+/* .quote-area.bg-item::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.575);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+} */
 .quote-item.item-two {
-  max-width: 750px;
+  max-width: 100%;
   margin-left: auto;
+  position: relative;
+  z-index: 999999;
+}
+.quote-area .bottom-shape {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  z-index: 9;
 }
 .quote-item {
-  background-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.575);
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   padding: 50px;
 }
@@ -1615,6 +1640,7 @@ dl {
   font-size: 45px;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: #fff;
 }
 .quote-item form .form-group {
   margin-bottom: 15px;
@@ -1624,7 +1650,7 @@ dl {
   color: #1b0238;
   box-shadow: unset !important;
   border: 1px solid #eeeeee;
-  background-color: transparent;
+  background-color: #fff;
   transition: 0.5s;
   border-radius: 10px;
   padding: 0 0 0 15px;
@@ -1650,7 +1676,7 @@ dl {
 }
 .breadcrumb-wrapper .page-heading {
   position: relative;
-  padding: 100px 0;
+  padding: 140px 0;
   text-align: center;
   z-index: 9;
 }
@@ -1729,4 +1755,63 @@ dl {
 .about .about-content p {
   color: var(--primary-color);
   font-size: 20px;
+}
+.home-why-about .home-why .bottom-shape {
+  display: none;
+}
+/*--------------------------------------------------------------
+# Contact US
+--------------------------------------------------------------*/
+.contact-box {
+  text-align: center;
+  box-shadow: 1px 1px 5px #ccc;
+  padding: 50px 15px;
+  border-radius: 11px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid var(--secondary-color);
+  position: relative;
+}
+
+.contact .contact-box:nth-child(2) {
+  border: 1px solid var(--primary-color) !important;
+}
+/* .contact-box:hover {
+  background-color: var(--secondary-color);
+} */
+
+.contact-box i {
+  font-size: 40px;
+  color: var(--secondary-color);
+}
+.contact-box:hover .contact-box i {
+  color: var(--white-color) !important;
+}
+.contact-box p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.contact-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.contact-box h4 a {
+  color: var(--primary-color);
+}
+
+.main-event .home-event .bottom-shape {
+  display: none;
+}
+.main-event .home-event {
+  background: #fff !important;
+}
+.main-event .home-event::before {
+  background-color: #fff !important;
 }

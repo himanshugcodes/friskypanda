@@ -7,13 +7,13 @@ import {
   FaFacebookF,
   FaLinkedinIn,
   FaMailBulk,
-  FaMailchimp,
   FaPhoneAlt,
   FaRegMap,
   FaTwitter,
   FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
+import ContactButtons from "./ContactButtons";
 
 const footer = () => {
   return (
@@ -231,16 +231,11 @@ const footer = () => {
         </div>
       </footer>
 
-      <section className="mobile-footer">
+      {/* <section className="mobile-footer">
         <div className="container-fluid">
           <div className="row align-item-center justify-content-center">
             <div className="col-4 box">
               <a href="tel:9839864444">
-                {/* <img
-                  src="/assets/img/facility-icon1.png"
-                  className="img-fluid"
-                  alt=""
-                /> */}
                 <i>
                   <FaPhoneAlt />
                 </i>
@@ -249,11 +244,6 @@ const footer = () => {
             </div>
             <div className="col-4 box">
               <a href="https://api.whatsapp.com/send?phone=919839864444&text=Hello,">
-                {/* <img
-                  src="/assets/img/facility-icon2.png"
-                  className="img-fluid"
-                  alt=""
-                /> */}
                 <i>
                   <FaWhatsapp />
                 </i>
@@ -262,11 +252,6 @@ const footer = () => {
             </div>
             <div className="col-4 box">
               <a href="mailto:info@friskypanda.in">
-                {/* <img
-                  src="/assets/img/facility-icon3.png"
-                  className="img-fluid"
-                  alt=""
-                /> */}
                 <i>
                   <FaMailBulk />
                 </i>
@@ -275,33 +260,31 @@ const footer = () => {
             </div>
           </div>
         </div>
-      </section>
-
-      <div className="tpt">
+      </section> */}
+      <ContactButtons />
+      {/* <div className="tpt">
         <div className="call">
-          <a href="tel:9839864444" target="blank">
-            <Image
-              width={53}
-              height={53}
-              src="/assets/images/call2.png"
-              alt="image"
-            />
+          <a className="ripple" href="tel:9839864444" target="blank">
+            <i>
+              <FaPhoneAlt />
+            </i>
           </a>
         </div>
-        <div className="whatsapp">
+        <div className="whatsapp ">
           <a
+            className="ripple"
             href="https://api.whatsapp.com/send?phone=919839864444&text=Hello,"
             target="blank"
           >
-            <Image
-              width={53}
-              height={53}
-              src="/assets/images/whatsapp.png"
-              alt="image"
-            />
+            <i>
+              <i>
+                <FaWhatsapp />
+              </i>
+            </i>
+            
           </a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

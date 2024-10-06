@@ -6,11 +6,9 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaLinkedinIn,
-  FaMailBulk,
   FaPhoneAlt,
   FaRegMap,
   FaTwitter,
-  FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
 import ContactButtons from "./ContactButtons";
@@ -230,6 +228,7 @@ const footer = () => {
           <img src="/assets/images/bottom.webp" alt="Frisky Panda" />
         </div>
       </footer>
+      <ContactButtons />
 
       {/* <section className="mobile-footer">
         <div className="container-fluid">
@@ -261,7 +260,7 @@ const footer = () => {
           </div>
         </div>
       </section> */}
-      <ContactButtons />
+
       {/* <div className="tpt">
         <div className="call">
           <a className="ripple" href="tel:9839864444" target="blank">

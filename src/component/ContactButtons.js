@@ -25,7 +25,12 @@ export default function ContactButtons() {
     <>
       {showButtons && (
         <>
-          <section className="mobile-footer">
+          <section
+            className="mobile-footer"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="100"
+          >
             <div className="container-fluid">
               <div className="row align-item-center justify-content-center">
                 <div className="col-4 box">
@@ -56,14 +61,29 @@ export default function ContactButtons() {
             </div>
           </section>
           <div className="tpt">
-            <div className="call">
-              <a className="ripple" href="tel:9839864444" target="blank">
+            <div
+              className="call"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              data-aos-delay="100"
+            >
+              <a
+                className="ripple"
+                href="tel:9839864444"
+                target="blank"
+                title="Call Us"
+              >
                 <i>
                   <FaPhoneAlt />
                 </i>
               </a>
             </div>
-            <div className="whatsapp">
+            <div
+              className="whatsapp"
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              data-aos-delay="100"
+            >
               <a
                 className="ripple"
                 href="https://api.whatsapp.com/send?phone=919839864444&text=Hello,"

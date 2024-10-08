@@ -50,7 +50,7 @@ const about = () => {
           <div className="row align-items-center">
             <div className="col-md-6">
               <div className="about-img" data-aos="fade-right">
-                <img src="/assets/images/about/about.jpg" alt="about" />
+                <img src="/assets/images/about/about.jpg" alt="" />
               </div>
             </div>
             <div className="col-md-6">
@@ -106,7 +106,7 @@ const about = () => {
                 >
                   <img
                     className="mb-md-2"
-                    src="/assets/images/why-choose-us-01.webp"
+                    src="/assets/images/why-choose-us-01.png"
                     alt="Frisky Panda"
                   />
                   <h4 className="pt-2 pt-md-4">Indoor Playground</h4>

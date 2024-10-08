@@ -60,7 +60,7 @@ const Contact = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="contact-box">
+              <div className="contact-box mb-3 mb-md-0">
                 <i>
                   <FaPhoneAlt />
                 </i>
@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="contact-box">
+              <div className="contact-box mb-3 mb-md-0">
                 <i>
                   <FaEnvelope />
                 </i>
@@ -83,7 +83,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="col-md-4">
-              <div className="contact-box">
+              <div className="contact-box mb-3 mb-md-0">
                 <i>
                   <FaRegMap />
                 </i>

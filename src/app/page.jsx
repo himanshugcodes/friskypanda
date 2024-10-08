@@ -149,7 +149,7 @@ export default function Home() {
                 >
                   <img
                     className="mb-md-2"
-                    src="/assets/images/why-choose-us-01.webp"
+                    src="/assets/images/why-choose-us-01.png"
                     alt="Frisky Panda"
                   />
                   <h4 className="pt-2 pt-md-4">Indoor Playground</h4>

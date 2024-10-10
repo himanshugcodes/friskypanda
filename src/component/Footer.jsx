@@ -12,6 +12,7 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 import ContactButtons from "./ContactButtons";
+import TwakTo from "./TwakTo";
 
 const footer = () => {
   return (
@@ -229,7 +230,6 @@ const footer = () => {
         </div> */}
       </footer>
       <ContactButtons />
-
       {/* <section className="mobile-footer">
         <div className="container-fluid">
           <div className="row align-item-center justify-content-center">
@@ -260,7 +260,6 @@ const footer = () => {
           </div>
         </div>
       </section> */}
-
       {/* <div className="tpt">
         <div className="call">
           <a className="ripple" href="tel:9839864444" target="blank">
@@ -284,6 +283,7 @@ const footer = () => {
           </a>
         </div>
       </div> */}
+      <TwakTo />
     </>
   );
 };

@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
+import TwakTo from "./TwakTo";
 const Header = () => {
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -129,6 +130,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <TwakTo />
     </>
   );
 };

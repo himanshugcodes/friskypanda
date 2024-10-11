@@ -1621,6 +1621,7 @@ dl {
   margin-left: auto;
   position: relative;
   z-index: 99;
+  border-radius: 15px;
 }
 .quote-area .bottom-shape {
   position: absolute;
@@ -1661,6 +1662,9 @@ dl {
   border-radius: 10px;
   padding: 0 0 0 15px;
   font-weight: 500;
+}
+.quote-item form .form-group textarea {
+  height: auto !important;
 }
 /*--------------------------------------------------------------
 # breadcrumb

@@ -69,7 +69,7 @@ export default function ContactButtons() {
             >
               <a
                 className="ripple"
-                href="tel:9839864444"
+                href="tel:919005436999"
                 target="blank"
                 title="Call Us"
               >
@@ -86,7 +86,7 @@ export default function ContactButtons() {
             >
               <a
                 className="ripple"
-                href="https://api.whatsapp.com/send?phone=919839864444&text=Hello,"
+                href="https://api.whatsapp.com/send?phone=919005436999&text=Hello,"
                 target="blank"
               >
                 <i>

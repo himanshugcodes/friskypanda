@@ -106,35 +106,34 @@ const footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
-                      {" "}
+                    <Link href="/rules">
                       <FaAngleRight />
                       Frisky Panda Rules
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/careers">
                       {" "}
                       <FaAngleRight />
                       Careers
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/faq">
                       {" "}
                       <FaAngleRight />
-                      FAQ
+                      FAQs
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/disclaimer">
                       {" "}
                       <FaAngleRight />
                       Disclaimer
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="/privacy-policy">
                       {" "}
                       <FaAngleRight />
                       Privacy Policy
@@ -153,8 +152,7 @@ const footer = () => {
                     <i>
                       <FaPhoneAlt />
                     </i>
-                    <a href="tel:9876543211">9876543211</a> ,
-                    <a href="tel:9876543211">9876543211</a>
+                    <a href="tel:+919005436999">+91 90054 36999</a>
                   </li>
                   <li>
                     <i>

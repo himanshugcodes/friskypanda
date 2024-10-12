@@ -1281,6 +1281,12 @@ dl {
   /* .tpt {
     display: none;
   } */
+  .tpt {
+    position: fixed;
+    bottom: 15% !important;
+    z-index: 999999999;
+    left: 80% !important;
+  }
 }
 
 /* ========Animation====== */

@@ -1257,6 +1257,9 @@ dl {
   .home-gallery {
     text-align: center;
   }
+  .quote-item {
+    padding: 50px 20px !important;
+  }
   .footer-section {
     padding: 60px 0 50px 0;
   }

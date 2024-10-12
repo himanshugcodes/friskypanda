@@ -33,7 +33,7 @@ export default function ContactButtons() {
           >
             <div className="container-fluid">
               <div className="row align-item-center justify-content-center">
-                <div className="col-4 box">
+                <div className="col-6 box">
                   <a href="tel:9839864444">
                     <i>
                       <FaPhoneAlt />
@@ -41,7 +41,7 @@ export default function ContactButtons() {
                     <p> Call</p>
                   </a>
                 </div>
-                <div className="col-4 box">
+                <div className="col-6 box">
                   <a href="https://api.whatsapp.com/send?phone=919839864444&text=Hello,">
                     <i>
                       <FaWhatsapp />
@@ -49,14 +49,14 @@ export default function ContactButtons() {
                     <p> Whatsapp</p>
                   </a>
                 </div>
-                <div className="col-4 box">
+                {/* <div className="col-4 box">
                   <a href="mailto:info@friskypanda.in">
                     <i>
                       <FaMailBulk />
                     </i>
                     <p> Mail</p>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>

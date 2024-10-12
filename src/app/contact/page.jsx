@@ -1,5 +1,11 @@
 import React from "react";
-import { FaChevronRight } from "react-icons/fa";
+import {
+  FaChevronRight,
+  FaMapMarkedAlt,
+  FaMapMarker,
+  FaMapMarkerAlt,
+  FaMobileAlt,
+} from "react-icons/fa";
 import QuoteForm from "../../component/QuoteForm";
 import {
   FaAngleRight,
@@ -58,54 +64,62 @@ const Contact = () => {
 
       <section className="contact section-padding">
         <div className="container">
-          <div className="row">
-            <div className="col-md-4">
-              <div className="contact-box mb-3 mb-md-0">
-                <i>
-                  <FaPhoneAlt />
-                </i>
-                <p>Have any question?</p>
-                <h4>
-                  <a href="tel:919005436999">+91 90054 36999</a>
-                </h4>
+          <div className="row g-4">
+            <div className="col-md-12">
+              <div className="row g-4">
+                <div className="col-md-4">
+                  <div className="contact-box mb-3 mb-md-0">
+                    <i>
+                      <FaMobileAlt />
+                    </i>
+                    <p>Have any question?</p>
+                    <h4>
+                      <a href="tel:919005436999">+91 90054 36999</a>
+                    </h4>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="contact-box-two mb-3 mb-md-0">
+                    <i>
+                      <FaEnvelope />
+                    </i>
+                    <p>Send Email</p>
+                    <h4>
+                      <a href="mailto:info@friskypanda.in">
+                        info@friskypanda.in
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+                <div className="col-md-4">
+                  <div className="contact-box-three mb-3 mb-md-0">
+                    <i>
+                      <FaMapMarkerAlt />
+                    </i>
+                    <p>Visit Anytime</p>
+                    <h4>
+                      <a href="">
+                        Plot No. A-1/1, Sector-H, Aliganj Street - Bajrang Bali,
+                        Lucknow
+                      </a>
+                    </h4>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="col-md-4">
-              <div className="contact-box mb-3 mb-md-0">
-                <i>
-                  <FaEnvelope />
-                </i>
-                <p>Send Email</p>
-                <h4>
-                  <a href="mailto:info@friskypanda.in">info@friskypanda.in</a>
-                </h4>
-              </div>
-            </div>
-            <div className="col-md-4">
-              <div className="contact-box mb-3 mb-md-0">
-                <i>
-                  <FaRegMap />
-                </i>
-                <p>Visit Anytime</p>
-                <h4>
-                  <a href="">
-                    Plot No. A-1/1, Sector-H, Aliganj Street - Bajrang Bali,
-                    Lucknow
-                  </a>
-                </h4>
-              </div>
+            <div className="col-md-12">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7116.636348640126!2d80.94202104118725!3d26.893395556634342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995732770ddc47%3A0xaed581dfe88ffb!2sPark%20bajrang%20wali%20ward%20sec%20l%20aliganj!5e0!3m2!1sen!2sin!4v1728249782765!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
           </div>
         </div>
       </section>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7116.636348640126!2d80.94202104118725!3d26.893395556634342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995732770ddc47%3A0xaed581dfe88ffb!2sPark%20bajrang%20wali%20ward%20sec%20l%20aliganj!5e0!3m2!1sen!2sin!4v1728249782765!5m2!1sen!2sin"
-        width="100%"
-        height="450"
-        allowFullScreen=""
-        loading="lazy"
-        referrerPolicy="no-referrer-when-downgrade"
-      ></iframe>
 
       {/* CTA Form */}
       <QuoteForm />

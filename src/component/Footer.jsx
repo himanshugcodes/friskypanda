@@ -6,6 +6,8 @@ import {
   FaEnvelope,
   FaFacebookF,
   FaLinkedinIn,
+  FaMapMarkerAlt,
+  FaMobileAlt,
   FaPhoneAlt,
   FaRegMap,
   FaTwitter,
@@ -150,7 +152,7 @@ const footer = () => {
                 <ul className="footer-contact">
                   <li>
                     <i>
-                      <FaPhoneAlt />
+                      <FaMobileAlt />
                     </i>
                     <a href="tel:+919005436999">+91 90054 36999</a>
                   </li>
@@ -163,7 +165,7 @@ const footer = () => {
                   </li>
                   <li>
                     <i>
-                      <FaRegMap />
+                      <FaMapMarkerAlt />
                     </i>
                     <a href="">
                       Plot No. A-1/1, Sector-H,Aliganj Street and City Expansion

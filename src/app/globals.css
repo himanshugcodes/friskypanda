@@ -767,16 +767,19 @@ dl {
   /* position: absolute;
   left: 0;
   top: 5px; */
-  font-size: 20px;
+  font-size: 26px;
   color: var(--secondary-color);
   margin-right: 15px;
 }
 .single-footer .footer-contact li a {
   display: inline-block;
-  color: var(--text-color) !important;
+  color: var(--text-color);
   font-weight: 500;
   position: relative;
   font-size: 16px;
+}
+.single-footer .footer-contact li:hover a {
+  color: var(--secondary-color);
 }
 .single-footer .footer-contact li a::before {
   content: "";
@@ -1792,23 +1795,14 @@ dl {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  border: 1px solid var(--secondary-color);
+  border: 1px dashed var(--secondary-color);
   position: relative;
+  background: #ee5b3615;
+  transition: 0.6s ease-in-out;
 }
-
-.contact .contact-box:nth-child(2) {
-  border: 1px solid var(--primary-color) !important;
-}
-/* .contact-box:hover {
-  background-color: var(--secondary-color);
-} */
-
 .contact-box i {
   font-size: 40px;
   color: var(--secondary-color);
-}
-.contact-box:hover .contact-box i {
-  color: var(--white-color) !important;
 }
 .contact-box p {
   font-size: 16px;
@@ -1819,10 +1813,108 @@ dl {
 }
 .contact-box h4 {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
 }
 .contact-box h4 a {
   color: var(--primary-color);
+}
+.contact-box:hover {
+  background: var(--secondary-color);
+  transform: translateY(-8px);
+}
+.contact-box:hover i,
+.contact-box:hover p,
+.contact-box:hover h4 a {
+  color: var(--white-color);
+}
+
+/*contact -box2*/
+.contact-box-two {
+  text-align: center;
+  box-shadow: 1px 1px 5px #ccc;
+  padding: 50px 15px;
+  border-radius: 11px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 1px dashed #00a76e;
+  position: relative;
+  background-color: #00a76f23;
+  transition: 0.6s ease-in-out;
+}
+.contact-box-two i {
+  font-size: 40px;
+  color: #00a76e;
+}
+.contact-box-two p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.contact-box-two h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-box-two h4 a {
+  color: var(--primary-color);
+}
+.contact-box-two:hover {
+  background: #00a76e;
+  transform: translateY(-8px);
+}
+.contact-box-two:hover i,
+.contact-box-two:hover p,
+.contact-box-two:hover h4 a {
+  color: var(--white-color);
+}
+/*contact -box3*/
+.contact-box-three {
+  text-align: center;
+  box-shadow: 1px 1px 5px #ccc;
+  padding: 50px 15px;
+  border-radius: 11px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: 1px dashed #febe18;
+  position: relative;
+  background-color: #febd182a;
+  transition: 0.6s ease-in-out;
+}
+.contact-box-three i {
+  font-size: 40px;
+  color: #febe18;
+}
+.contact-box-three p {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.contact-box-three h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-box-three h4 a {
+  color: var(--primary-color);
+}
+.contact-box-three:hover {
+  background: #febe18;
+  transform: translateY(-8px);
+}
+.contact-box-three:hover i,
+.contact-box-three:hover p,
+.contact-box-three:hover h4 a {
+  color: var(--white-color);
 }
 
 .main-event .home-event .bottom-shape {

@@ -1278,9 +1278,9 @@ dl {
   .mobile-footer {
     opacity: 1 !important;
   }
-  .tpt {
+  /* .tpt {
     display: none;
-  }
+  } */
 }
 
 /* ========Animation====== */

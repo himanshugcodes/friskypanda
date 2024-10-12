@@ -6,10 +6,17 @@ const loading = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <div className="shimmer"></div>
+            <div className="row">
+              <div className="col-md-12">
+                <div className="shimmer h-1 mb-4"></div>
+              </div>
+              <div className="col-md-12">
+                <div className="shimmer h-2"></div>
+              </div>
+            </div>
           </div>
           <div className="col-md-6">
-            <div className="shimmer"></div>
+            <div className="shimmer h-3"></div>
           </div>
         </div>
       </div>

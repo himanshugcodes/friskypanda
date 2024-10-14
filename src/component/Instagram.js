@@ -21,9 +21,9 @@ const Instagram = () => {
     <div
       dangerouslySetInnerHTML={{
         __html: `
-            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/sonia_khare20/" data-instgrm-version="13" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:580px; min-width:270px; padding:0; width:calc(100% - 2px); width:-webkit-calc(100% - 2px);">
+            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/friskypanda.in/" data-instgrm-version="13" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:580px; min-width:270px; padding:0; width:calc(100% - 2px); width:-webkit-calc(100% - 2px);">
               <div style="padding:16px;">
-                <a href="https://www.instagram.com/sonia_khare20/" style="color:#ee5c36;target="_blank">A post shared by Instagram</a>
+                <a href="https://www.instagram.com/friskypanda.in/" style="color:#ee5c36;target="_blank">A post shared by Instagram</a>
               </div>
             </blockquote>
           `,

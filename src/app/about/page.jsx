@@ -58,18 +58,23 @@ const about = () => {
                 <h4>About Us</h4>
                 <h2 className="">Welcome to best Playzone for your child</h2>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Blanditiis deleniti provident necessitatibus optio doloremque
-                  sequi perferendis eligendi, praesentium iure nulla! Voluptate
-                  ea quo laudantium animi ullam commodi repudiandae corporis
-                  sint. Lorem ipsum dolor sit amet consectetur, adipisicing
-                  elit. Molestias in hic laboriosam minus sint, sed dolorem
-                  aliquam numquam explicabo non quod vero .
+                  Welcome to Frisky Panda Playzone, the best indoor play area
+                  for kids in Lucknow! Designed to provide a fun, safe, and
+                  stimulating environment, our playzone features a wide range of
+                  exciting activities, including slides, ball pits, climbing
+                  structures, and more. Whether you're planning a fun day out, a
+                  birthday party,a kitty party, or a playdate, our indoor
+                  playground is perfect for kids to burn off energy and engage
+                  their imagination.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                  architecto nesciunt evenie, repudiandae corporis sint. Lorem
-                  ipsum dolor sit amet consectetur.
+                  Parents can relax at our cozy café, enjoying freshly brewed
+                  coffee, snacks, and free Wi-Fi while their children have a
+                  blast. We prioritize cleanliness and safety, ensuring every
+                  visit is worry-free. Conveniently located in Lucknow, Frisky
+                  Panda Playzone is your go-to spot for indoor family fun. Book
+                  your next event or drop in for an unforgettable experience
+                  that kids will love and parents will appreciate!
                 </p>
               </div>
             </div>

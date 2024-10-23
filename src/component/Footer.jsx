@@ -8,8 +8,6 @@ import {
   FaLinkedinIn,
   FaMapMarkerAlt,
   FaMobileAlt,
-  FaPhoneAlt,
-  FaRegMap,
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
@@ -33,10 +31,12 @@ const footer = () => {
                   />
                 </Link>
                 <p className="mt-3">
-                  Join us for an unforgettable experience at our exclusive
-                  indoor playground, where our master pandas curate themed
-                  birthday parties that will leave your little ones beaming with
-                  joy!
+                  Frisky Panda Playzone is the ultimate indoor play destination
+                  for kids, featuring fun, safe, and exciting activities. Our
+                  cafe offers delicious treats for parents to enjoy while their
+                  children play. Perfect for birthdays, playdates, and family
+                  outings. Visit our indoor play area in Aliganj Square Lucknow
+                  today.
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ const footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/cafe">
+                    <Link href="/friskypanda-menu.pdf">
                       {" "}
                       <FaAngleRight />
                       Cafe

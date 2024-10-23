@@ -24,7 +24,7 @@ export default function Home() {
                 data-aos-duration="1000"
                 data-aos-delay="100"
               >
-                <h1>Welcome to Frisky Panda.in</h1>
+                <h1>Welcome to Frisky Panda Playzone </h1>
                 <p>
                   Join us for an unforgettable experience at our exclusive
                   indoor playground, where our master pandas curate themed

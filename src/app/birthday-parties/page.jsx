@@ -44,42 +44,86 @@ const BirthdayParties = () => {
         </div>
       </div>
       {/* Cafe */}
-      <section className="cafe section-padding">
+      <section className="cafe section-padding main">
         <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-12">
+              <div className="main-heading">
+                <h2 className="" data-aos="fade-up">
+                  Unforgettable Birthday Experiences at Friskypanda Indoorplay &
+                  Cafe!
+                </h2>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-md-12">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Fuga tenetur rem ut, ad vitae explicabo repellat sapiente
-                nihil minima. Cupiditate facere minus, nulla pariatur illo unde
-                autem fuga nam tenetur.
+                Looking for the perfect venue for your child’s next birthday? At
+                Frisky Panda Playzone in Lucknow, we specialize in creating
+                magical, unforgettable birthday experiences that your child and
+                their friends will remember for years! Our vibrant, safe indoor
+                playground is the ideal setting for fun-filled, themed birthday
+                parties tailored to your child’s favorite activities and
+                interests. From playful pandas to adventurous explorers, we
+                craft custom party themes that spark excitement and joy.
+              </p>
+
+              <h4>
+                Why Choose Frisky Panda Playzone for Your Child’s Birthday?
+              </h4>
+              <p>
+                As the go-to indoor playzone and party venue in Lucknow, we
+                offer a seamless, all-inclusive party experience designed to
+                make your child’s special day hassle-free and unforgettable.
+                Here’s how we take care of everything:
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus. Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit. Provident, culpa placeat iste nostrum ratione explicabo
-                maxime commodi perferendis quia minima dolorem quas tempora
-                nihil iure ut aut blanditiis libero nemo.
+                <strong>Custom Invitations:</strong> We create fun, themed
+                invitations that match the party’s design, helping you set the
+                tone for an amazing celebration right from the start.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos ratione voluptate ipsa voluptatem consequatur
-                accusamus ea? Numquam excepturi quis sunt soluta nulla?
-                Repudiandae eveniet sequi nam voluptatibus assumenda repellendus
-                eius?
+                <strong> Delicious Themed Cakes:</strong> No birthday is
+                complete without cake! Choose from our variety of delicious cake
+                flavors, all tailored to your party’s theme. Whether it’s a
+                superhero, princess, or jungle-themed cake, we’ve got you
+                covered.
+              </p>
+              <p>
+                <strong>Birthday Star’s Attire:</strong> We make your child feel
+                extra special with stylish party attire designed to match the
+                theme, ensuring they’re the star of the show. Expert Party
+                Hosting: Our experienced team of party hosts ensures that
+                everything runs smoothly from start to finish. From setting up
+                games and activities to managing the schedule, we make sure your
+                party is fun, stress-free, and memorable.
+              </p>
+              <p>
+                <strong>Personalized Return Gifts:</strong> Send your guests
+                home with customized return gifts that fit the party theme.
+                These thoughtful keepsakes are a great way to leave a lasting
+                impression.
+              </p>
+              <h4>A Fun, Safe, and Exciting Space</h4>
+
+              <p>
+                At Frisky Panda Playzone, we prioritize safety and cleanliness,
+                ensuring a safe environment for all children. Our play
+                structures, ball pits, and adventure zones are designed to keep
+                kids entertained for hours. Parents can relax and enjoy the
+                celebration while we take care of the details.
+              </p>
+              <p>
+                Book Your Dream Party Today, Whether you're planning a small,
+                intimate gathering or a larger celebration, Frisky Panda
+                Playzone is your go-to birthday party destination in Lucknow.
+                Let us handle the logistics, decorations, and entertainment, so
+                you can focus on creating lasting memories with your child.
+              </p>
+              <p>
+                Contact us now to book the ultimate birthday party at
+                Friskypanda Indoorplay & Cafe!
               </p>
             </div>
           </div>

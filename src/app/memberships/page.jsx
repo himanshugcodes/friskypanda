@@ -46,22 +46,101 @@ const Memberships = () => {
 
       {/* Membership */}
       <section className="memberships section-padding">
-        <div className="container">
+        <div class="container">
+          <div class="column">
+            <div class="pricing-card basic">
+              <div class="pricing-header">
+                <span class="plan-title">Panda Cub Plan</span>
+                <div class="price-circle">
+                  <span class="price-title">
+                    <small></small>
+                    <span>600</span>
+                  </span>
+                  <span class="info">INR</span>
+                </div>
+              </div>
+              <div class="badge-box">
+                <span>Save 35%</span>
+              </div>
+              <ul>
+                <li>1 Hour Play</li>
+                <li>5% off cafe purchases</li>
+                <li>INR 200 per additional hour</li>
+                <li>Access to exclusive member-only events</li>
+                <li>Priority booking for special events and parties</li>
+              </ul>
+              <div class="buy-button-box">
+                <a href="#quote" class="buy-now">
+                  BUY NOW
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="pricing-card eco">
+              <div class="popular">Popular</div>
+              <div class="pricing-header">
+                <span class="plan-title">Panda Explorer Plan</span>
+                <div class="price-circle">
+                  <span class="price-title">
+                    <small></small>
+                    <span>4000</span>
+                  </span>
+                  <span class="info">INR</span>
+                </div>
+              </div>
+              <div class="badge-box">
+                <span>Save 15%</span>
+              </div>
+              <ul>
+                <li>Unlimited play sessions per month</li>
+                <li>15% off café purchases</li>
+                <li>1 free guest pass per month</li>
+                <li>15% off birthday party bookings</li>
+                <li>Access to member-only events </li>
+              </ul>
+              <div class="buy-button-box">
+                <a href="#quote" class="buy-now">
+                  BUY NOW
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="pricing-card pro">
+              <div class="popular">Limited Time Offer</div>
+              <div class="pricing-header">
+                <span class="plan-title">Panda VIP Plan</span>
+                <div class="price-circle">
+                  <span class="price-title">
+                    <small></small>
+                    <span>20000</span>
+                  </span>
+                  <span class="info">INR</span>
+                </div>
+              </div>
+              <div class="badge-box">
+                <span>Save 60%</span>
+              </div>
+              <ul>
+                <li>Unlimited play sessions for up to 2 children</li>
+                <li>20% off cafe purchases and party bookings</li>
+                <li>2 free guest passes per month</li>
+                <li>Exclusive VIP member events</li>
+                <li>Free birthday party for the member child</li>
+              </ul>
+              <div class="buy-button-box">
+                <a href="#quote" class="buy-now">
+                  BUY NOW
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Fuga tenetur rem ut, ad vitae explicabo repellat sapiente
-                nihil minima. Cupiditate facere minus, nulla pariatur illo unde
-                autem fuga nam tenetur.
-              </p>
+             
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
                 nihil reiciendis delectus dicta ex fuga, cupiditate tempora
@@ -74,7 +153,7 @@ const Memberships = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
       {/* CTA Form */}
       <QuoteForm />

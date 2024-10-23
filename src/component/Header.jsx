@@ -12,7 +12,7 @@ const Header = () => {
   };
   return (
     <>
-      <header className="header d-none d-lg-block">
+      <header className="header d-none d-lg-block membership">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-3">
@@ -43,7 +43,9 @@ const Header = () => {
                     <Link href="/events">Events</Link>
                   </li>
                   <li>
-                    <Link href="/cafe">Cafe</Link>
+                    <Link href="/friskypanda-menu.pdf" target="_blank">
+                      Cafe
+                    </Link>
                   </li>
                   <li>
                     <Link href="/gallery">Gallery</Link>
@@ -114,7 +116,9 @@ const Header = () => {
                   <Link href="/events">Events</Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
-                  <Link href="/cafe">Cafe</Link>
+                  <Link href="/friskypanda-menu.pdf" target="_blank">
+                    Cafe
+                  </Link>
                 </li>
                 <li onClick={toggleMobileMenu}>
                   <Link href="/gallery">Gallery</Link>

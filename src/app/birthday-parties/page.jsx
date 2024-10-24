@@ -59,18 +59,19 @@ const BirthdayParties = () => {
           <div className="row">
             <div className="col-md-12">
               <p>
-                Looking for the perfect venue for your child’s next birthday? At
-                Frisky Panda Playzone in Lucknow, we specialize in creating
-                magical, unforgettable birthday experiences that your child and
-                their friends will remember for years! Our vibrant, safe indoor
-                playground is the ideal setting for fun-filled, themed birthday
-                parties tailored to your child’s favorite activities and
-                interests. From playful pandas to adventurous explorers, we
-                craft custom party themes that spark excitement and joy.
+                Looking for the perfect venue for your child&apos;s next
+                birthday? At Frisky Panda Playzone in Lucknow, we specialize in
+                creating magical, unforgettable birthday experiences that your
+                child and their friends will remember for years! Our vibrant,
+                safe indoor playground is the ideal setting for fun-filled,
+                themed birthday parties tailored to your child’s favorite
+                activities and interests. From playful pandas to adventurous
+                explorers, we craft custom party themes that spark excitement
+                and joy.
               </p>
 
               <h4>
-                Why Choose Frisky Panda Playzone for Your Child’s Birthday?
+                Why Choose Frisky Panda Playzone for Your Child&apos;s Birthday?
               </h4>
               <p>
                 As the go-to indoor playzone and party venue in Lucknow, we
@@ -115,8 +116,8 @@ const BirthdayParties = () => {
                 celebration while we take care of the details.
               </p>
               <p>
-                Book Your Dream Party Today, Whether you're planning a small,
-                intimate gathering or a larger celebration, Frisky Panda
+                Book Your Dream Party Today, Whether you&apos;re planning a
+                small, intimate gathering or a larger celebration, Frisky Panda
                 Playzone is your go-to birthday party destination in Lucknow.
                 Let us handle the logistics, decorations, and entertainment, so
                 you can focus on creating lasting memories with your child.

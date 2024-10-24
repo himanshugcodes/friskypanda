@@ -45,32 +45,26 @@ const Rules = () => {
       </div>
 
       {/* Membership */}
-      <section className="memberships section-padding">
+      <section className="main section-padding">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Fuga tenetur rem ut, ad vitae explicabo repellat sapiente
-                nihil minima. Cupiditate facere minus, nulla pariatur illo unde
-                autem fuga nam tenetur.
+                {" "}
+                <strong> Socks Only:</strong> For hygiene reasons, socks are
+                required for both children and adults inside the play area. No
+                bare feet or shoes allowed. Socks are available for purchase at
+                the entrance if needed.
               </p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus.
+                <strong>Age Restrictions:</strong> Our playzone is designed for
+                children aged 2-12. We have specific areas for younger and older
+                children to ensure safe play for everyone.
+              </p>
+              <p>
+                <strong>Health and Safety:</strong> No food, drinks, or gum are
+                allowed in the play area. Please enjoy snacks in our designated
+                café seating area.
               </p>
             </div>
           </div>

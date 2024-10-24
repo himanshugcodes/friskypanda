@@ -1,6 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import QuoteForm from "../../component/QuoteForm";
+import Link from "next/link";
 
 const Careers = () => {
   return (
@@ -45,32 +46,33 @@ const Careers = () => {
       </div>
 
       {/* Membership */}
-      <section className="memberships section-padding">
+      <section className="main section-padding">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
+              <h4>Join the Frisky Panda Team!</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Fuga tenetur rem ut, ad vitae explicabo repellat sapiente
-                nihil minima. Cupiditate facere minus, nulla pariatur illo unde
-                autem fuga nam tenetur.
+                Are you passionate about creating fun, safe, and memorable
+                experiences for kids? At Frisky Panda Playzone, we’re always
+                looking for energetic, dedicated, and enthusiastic individuals
+                to join our team! Whether you love working with children,
+                organizing events, or providing excellent customer service,
+                there’s a place for you at Frisky Panda.
               </p>
+              <h4>Current Openings</h4>
+              <ul>
+                <li>Playzone Attendant</li>
+                <li>Event Coordinator</li>
+                <li>Café Staff</li>
+              </ul>
+              <h4>How to Apply?</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus.
+                Ready to be part of the Frisky Panda team? Send your resume and
+                a brief cover letter to{" "}
+                <Link href="mailto:info@friskypanda.in">
+                  info@friskypanda.in
+                </Link>
+                , We look forward to meeting you!
               </p>
             </div>
           </div>

@@ -68,7 +68,7 @@ const footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/friskypanda-menu.pdf">
+                    <Link href="/friskypanda-menu.pdf" target="_blank">
                       {" "}
                       <FaAngleRight />
                       Cafe

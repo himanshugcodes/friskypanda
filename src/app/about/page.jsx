@@ -62,13 +62,13 @@ const about = () => {
                   for kids in Lucknow! Designed to provide a fun, safe, and
                   stimulating environment, our playzone features a wide range of
                   exciting activities, including slides, ball pits, climbing
-                  structures, and more. Whether you're planning a fun day out, a
-                  birthday party,a kitty party, or a playdate, our indoor
+                  structures, and more. Whether you&apos;sre planning a fun day
+                  out, a birthday party,a kitty party, or a playdate, our indoor
                   playground is perfect for kids to burn off energy and engage
                   their imagination.
                 </p>
                 <p>
-                  Parents can relax at our cozy café, enjoying freshly brewed
+                  Parents can relax at our cozy cafe, enjoying freshly brewed
                   coffee, snacks, and free Wi-Fi while their children have a
                   blast. We prioritize cleanliness and safety, ensuring every
                   visit is worry-free. Conveniently located in Lucknow, Frisky

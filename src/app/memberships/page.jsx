@@ -94,7 +94,7 @@ const Memberships = () => {
               </div>
               <ul>
                 <li>Unlimited play sessions per month</li>
-                <li>15% off café purchases</li>
+                <li>15% off cafe purchases</li>
                 <li>1 free guest pass per month</li>
                 <li>15% off birthday party bookings</li>
                 <li>Access to member-only events </li>

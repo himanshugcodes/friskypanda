@@ -64,7 +64,7 @@ const BirthdayParties = () => {
                 creating magical, unforgettable birthday experiences that your
                 child and their friends will remember for years! Our vibrant,
                 safe indoor playground is the ideal setting for fun-filled,
-                themed birthday parties tailored to your child’s favorite
+                themed birthday parties tailored to your child&apos;s favorite
                 activities and interests. From playful pandas to adventurous
                 explorers, we craft custom party themes that spark excitement
                 and joy.
@@ -76,25 +76,25 @@ const BirthdayParties = () => {
               <p>
                 As the go-to indoor playzone and party venue in Lucknow, we
                 offer a seamless, all-inclusive party experience designed to
-                make your child’s special day hassle-free and unforgettable.
-                Here’s how we take care of everything:
+                make your child&apos;s special day hassle-free and
+                unforgettable. Heres how we take care of everything:
               </p>
               <p>
                 <strong>Custom Invitations:</strong> We create fun, themed
-                invitations that match the party’s design, helping you set the
-                tone for an amazing celebration right from the start.
+                invitations that match the party&apos;s design, helping you set
+                the tone for an amazing celebration right from the start.
               </p>
               <p>
                 <strong> Delicious Themed Cakes:</strong> No birthday is
                 complete without cake! Choose from our variety of delicious cake
-                flavors, all tailored to your party’s theme. Whether it’s a
-                superhero, princess, or jungle-themed cake, we’ve got you
-                covered.
+                flavors, all tailored to your party&apos;s theme. Whether
+                it&apos;s a superhero, princess, or jungle-themed cake, we’ve
+                got you covered.
               </p>
               <p>
-                <strong>Birthday Star’s Attire:</strong> We make your child feel
-                extra special with stylish party attire designed to match the
-                theme, ensuring they’re the star of the show. Expert Party
+                <strong>Birthday Star&apos;s Attire:</strong> We make your child
+                feel extra special with stylish party attire designed to match
+                the theme, ensuring they’re the star of the show. Expert Party
                 Hosting: Our experienced team of party hosts ensures that
                 everything runs smoothly from start to finish. From setting up
                 games and activities to managing the schedule, we make sure your

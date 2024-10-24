@@ -29,7 +29,7 @@ const Events = () => {
         <div className="container">
           <div className="page-heading">
             <h1 className="wow fadeInUp" data-wow-delay=".3s">
-              Events
+              Upcoming Events
             </h1>
             <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
               <li>

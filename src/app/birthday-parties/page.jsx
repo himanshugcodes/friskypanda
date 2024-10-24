@@ -51,7 +51,7 @@ const BirthdayParties = () => {
               <div className="main-heading">
                 <h2 className="" data-aos="fade-up">
                   Unforgettable Birthday Experiences at Friskypanda Indoorplay
-                  &amp; Cafe!
+                  and Cafe!
                 </h2>
               </div>
             </div>
@@ -123,7 +123,7 @@ const BirthdayParties = () => {
               </p>
               <p>
                 Contact us now to book the ultimate birthday party at
-                Friskypanda Indoorplay &amp; Cafe!
+                Friskypanda Indoorplay and Cafe!
               </p>
             </div>
           </div>

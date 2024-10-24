@@ -365,7 +365,7 @@ export default function Home() {
                   </div>
                   <div className="program-content text-center">
                     <h4>
-                      <a href="">Fun & fitness for Moms & kids </a>
+                      <a href="">Fun and fitness for Moms and kids </a>
                     </h4>
                     <p>
                       Enjoy personalized sessions in Yoga, Zumba, Tabata, sound

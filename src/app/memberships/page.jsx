@@ -46,20 +46,20 @@ const Memberships = () => {
 
       {/* Membership */}
       <section className="memberships section-padding">
-        <div class="container">
-          <div class="column">
-            <div class="pricing-card basic">
-              <div class="pricing-header">
-                <span class="plan-title">Panda Cub Plan</span>
-                <div class="price-circle">
-                  <span class="price-title">
+        <div className="container">
+          <div className="column">
+            <div className="pricing-card basic">
+              <div className="pricing-header">
+                <span className="plan-title">Panda Cub Plan</span>
+                <div className="price-circle">
+                  <span className="price-title">
                     <small></small>
                     <span>600</span>
                   </span>
-                  <span class="info">INR</span>
+                  <span className="info">INR</span>
                 </div>
               </div>
-              <div class="badge-box">
+              <div className="badge-box">
                 <span>Save 35%</span>
               </div>
               <ul>
@@ -69,27 +69,27 @@ const Memberships = () => {
                 <li>Access to exclusive member-only events</li>
                 <li>Priority booking for special events and parties</li>
               </ul>
-              <div class="buy-button-box">
-                <a href="#quote" class="buy-now">
+              <div className="buy-button-box">
+                <a href="#quote" className="buy-now">
                   BUY NOW
                 </a>
               </div>
             </div>
           </div>
-          <div class="column">
-            <div class="pricing-card eco">
-              <div class="popular">Popular</div>
-              <div class="pricing-header">
-                <span class="plan-title">Panda Explorer Plan</span>
-                <div class="price-circle">
-                  <span class="price-title">
+          <div className="column">
+            <div className="pricing-card eco">
+              <div className="popular">Popular</div>
+              <div className="pricing-header">
+                <span className="plan-title">Panda Explorer Plan</span>
+                <div className="price-circle">
+                  <span className="price-title">
                     <small></small>
                     <span>4000</span>
                   </span>
-                  <span class="info">INR</span>
+                  <span className="info">INR</span>
                 </div>
               </div>
-              <div class="badge-box">
+              <div className="badge-box">
                 <span>Save 15%</span>
               </div>
               <ul>
@@ -99,27 +99,27 @@ const Memberships = () => {
                 <li>15% off birthday party bookings</li>
                 <li>Access to member-only events </li>
               </ul>
-              <div class="buy-button-box">
-                <a href="#quote" class="buy-now">
+              <div className="buy-button-box">
+                <a href="#quote" className="buy-now">
                   BUY NOW
                 </a>
               </div>
             </div>
           </div>
-          <div class="column">
-            <div class="pricing-card pro">
-              <div class="popular">Limited Time Offer</div>
-              <div class="pricing-header">
-                <span class="plan-title">Panda VIP Plan</span>
-                <div class="price-circle">
-                  <span class="price-title">
+          <div className="column">
+            <div className="pricing-card pro">
+              <div className="popular">Limited Time Offer</div>
+              <div className="pricing-header">
+                <span className="plan-title">Panda VIP Plan</span>
+                <div className="price-circle">
+                  <span className="price-title">
                     <small></small>
                     <span>20000</span>
                   </span>
-                  <span class="info">INR</span>
+                  <span className="info">INR</span>
                 </div>
               </div>
-              <div class="badge-box">
+              <div className="badge-box">
                 <span>Save 60%</span>
               </div>
               <ul>
@@ -129,8 +129,8 @@ const Memberships = () => {
                 <li>Exclusive VIP member events</li>
                 <li>Free birthday party for the member child</li>
               </ul>
-              <div class="buy-button-box">
-                <a href="#quote" class="buy-now">
+              <div className="buy-button-box">
+                <a href="#quote" className="buy-now">
                   BUY NOW
                 </a>
               </div>

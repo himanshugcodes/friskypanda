@@ -94,8 +94,8 @@ const BirthdayParties = () => {
               <p>
                 <strong>Birthday Star&apos;s Attire:</strong> We make your child
                 feel extra special with stylish party attire designed to match
-                the theme, ensuring they’re the star of the show. Expert Party
-                Hosting: Our experienced team of party hosts ensures that
+                the theme, ensuring they&apos;re the star of the show. Expert
+                Party Hosting: Our experienced team of party hosts ensures that
                 everything runs smoothly from start to finish. From setting up
                 games and activities to managing the schedule, we make sure your
                 party is fun, stress-free, and memorable.

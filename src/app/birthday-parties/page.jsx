@@ -50,8 +50,8 @@ const BirthdayParties = () => {
             <div className="col-md-12">
               <div className="main-heading">
                 <h2 className="" data-aos="fade-up">
-                  Unforgettable Birthday Experiences at Friskypanda Indoorplay &
-                  Cafe!
+                  Unforgettable Birthday Experiences at Friskypanda Indoorplay
+                  &amp; Cafe!
                 </h2>
               </div>
             </div>
@@ -123,7 +123,7 @@ const BirthdayParties = () => {
               </p>
               <p>
                 Contact us now to book the ultimate birthday party at
-                Friskypanda Indoorplay & Cafe!
+                Friskypanda Indoorplay &amp; Cafe!
               </p>
             </div>
           </div>

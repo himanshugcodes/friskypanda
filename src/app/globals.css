@@ -1302,6 +1302,7 @@ strong {
   }
   .footer-bottom .footer-wrapper {
     padding-top: 5px;
+    flex-direction: column;
   }
   .bottom-shape-footer {
     display: none;
@@ -2060,6 +2061,7 @@ strong {
   .column {
     flex: 100%;
     display: block;
+    margin-bottom: 30px;
   }
 }
 

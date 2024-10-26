@@ -1,7 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import QuoteForm from "../../component/QuoteForm";
-import Service from "../../component/service";
+import Service from "../../component/Service";
 
 const pages = () => {
   return (

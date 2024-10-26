@@ -153,7 +153,7 @@ const PrivacyPolicy = () => {
               <p>
                 {" "}
                 We may update this Privacy Policy periodically. Changes will be
-                posted on this page with the "Effective Date" updated. Your
+                posted on this page with the Effective Date updated. Your
                 continued use of our website constitutes acceptance of any
                 changes.
               </p>

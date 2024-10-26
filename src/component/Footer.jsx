@@ -55,9 +55,9 @@ const footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/birthday-parties">
+                    <Link href="/activities">
                       {" "}
-                      <FaAngleRight /> Birthday Parties
+                      <FaAngleRight /> Activities
                     </Link>
                   </li>
                   <li>
@@ -167,9 +167,12 @@ const footer = () => {
                     <i>
                       <FaMapMarkerAlt />
                     </i>
-                    <a href="">
-                      Plot No. A-1/1, Sector-H,Aliganj Street and City Expansion
-                      Scheme Ward - Bajrang Bali, Lucknow
+                    <a
+                      href="https://maps.app.goo.gl/yAqARm6w7Wbv81AU9"
+                      target="_blank"
+                    >
+                      Aliganj square, plot no.A-1/1, sector-h, aliganj street
+                      and city expansion, Lucknow, Uttar Pradesh 226024
                     </a>
                   </li>
                 </ul>
@@ -283,7 +286,7 @@ const footer = () => {
           </a>
         </div>
       </div> */}
-      <TwakTo />
+      {/* <TwakTo /> */}
     </>
   );
 };

@@ -1,8 +1,10 @@
 import React from "react";
+
 import { FaChevronRight } from "react-icons/fa";
 import QuoteForm from "../../component/QuoteForm";
+import Service from "../../component/Service";
 
-const Rules = () => {
+const BirthdayParties = () => {
   return (
     <>
       <div className="breadcrumb-wrapper bg-cover">
@@ -27,7 +29,7 @@ const Rules = () => {
         <div className="container">
           <div className="page-heading">
             <h1 className="wow fadeInUp" data-wow-delay=".3s">
-              Frisky Panda Rules
+              Our Activities
             </h1>
             <ul className="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
               <li>
@@ -38,42 +40,19 @@ const Rules = () => {
                   <FaChevronRight />
                 </i>
               </li>
-              <li>Frisky Panda Rules</li>
+              <li>Our Activities</li>
             </ul>
           </div>
         </div>
       </div>
 
-      {/* Membership */}
-      <section className="main section-padding">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <p>
-                {" "}
-                <strong> Socks Only:</strong> For hygiene reasons, socks are
-                required for both children and adults inside the play area. No
-                bare feet or shoes allowed. Socks are available for purchase at
-                the entrance if needed.
-              </p>
-              <p>
-                <strong>Age Restrictions:</strong> Our playzone is designed for
-                children aged 2-8. We have specific areas for younger and older
-                children to ensure safe play for everyone.
-              </p>
-              <p>
-                <strong>Health and Safety:</strong> No food, drinks, or gum are
-                allowed in the play area. Please enjoy snacks in our designated
-                cafe seating area.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Services All In One*/}
+      <Service />
+
       {/* CTA Form */}
       <QuoteForm />
     </>
   );
 };
 
-export default Rules;
+export default BirthdayParties;

@@ -98,9 +98,12 @@ const Contact = () => {
                     </i>
                     <p>Visit Anytime</p>
                     <h4>
-                      <a href="">
-                        Plot No. A-1/1, Sector-H, Aliganj Street - Bajrang Bali,
-                        Lucknow
+                      <a
+                        href="https://maps.app.goo.gl/yAqARm6w7Wbv81AU9"
+                        target="_blank"
+                      >
+                        Aliganj square, plot no.A-1/1, sector-h, aliganj street
+                        and city expansion, Lucknow, Uttar Pradesh 226024
                       </a>
                     </h4>
                   </div>
@@ -109,7 +112,7 @@ const Contact = () => {
             </div>
             <div className="col-md-12">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7116.636348640126!2d80.94202104118725!3d26.893395556634342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995732770ddc47%3A0xaed581dfe88ffb!2sPark%20bajrang%20wali%20ward%20sec%20l%20aliganj!5e0!3m2!1sen!2sin!4v1728249782765!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.355731543443!2d80.94301287496998!3d26.892203176659375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39995701d590dbb9%3A0x5e8ddcb00ef039e0!2sFrisky%20Panda%20Kids%20Play%20Area%20%26%20Cafe!5e0!3m2!1sen!2sin!4v1729930242701!5m2!1sen!2sin"
                 width="100%"
                 height="450"
                 allowFullScreen=""

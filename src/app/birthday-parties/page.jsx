@@ -1,6 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import QuoteForm from "../../component/QuoteForm";
+import Service from "../../component/service";
 
 const BirthdayParties = () => {
   return (
@@ -44,7 +45,7 @@ const BirthdayParties = () => {
         </div>
       </div>
       {/* Cafe */}
-      <section className="cafe section-padding main">
+      <section className="cafe section-padding main pb-0">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-12">
@@ -56,18 +57,18 @@ const BirthdayParties = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row" data-aos="fade-up">
             <div className="col-md-12">
               <p>
                 Looking for the perfect venue for your child&apos;s next
-                birthday? At Frisky Panda Playzone in Lucknow, we specialize in
-                creating magical, unforgettable birthday experiences that your
-                child and their friends will remember for years! Our vibrant,
-                safe indoor playground is the ideal setting for fun-filled,
-                themed birthday parties tailored to your child&apos;s favorite
-                activities and interests. From playful pandas to adventurous
-                explorers, we craft custom party themes that spark excitement
-                and joy.
+                birthday? At Frisky Panda Indoor Play Area in Lucknow, we
+                specialize in creating magical, unforgettable birthday
+                experiences that your child and their friends will remember for
+                years! Our vibrant, safe indoor playground is the ideal setting
+                for fun-filled, themed birthday parties tailored to your
+                child&apos;s favorite activities and interests. From playful
+                pandas to adventurous explorers, we craft custom party themes
+                that spark excitement and joy.
               </p>
 
               <h4>
@@ -130,6 +131,8 @@ const BirthdayParties = () => {
           </div>
         </div>
       </section>
+      {/* Services All In One*/}
+      <Service />
       {/* CTA Form */}
       <QuoteForm />
     </>

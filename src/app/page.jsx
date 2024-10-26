@@ -24,7 +24,7 @@ export default function Home() {
                 data-aos-duration="1000"
                 data-aos-delay="100"
               >
-                <h1>Welcome to Frisky Panda Playzone </h1>
+                <h1>Welcome to Frisky Panda Indoor Play Area </h1>
                 <p>
                   Join us for an unforgettable experience at our exclusive
                   indoor playground, where our master pandas curate themed
@@ -243,7 +243,7 @@ export default function Home() {
                   </div>
                   <div className="program-content text-center">
                     <h4>
-                      <a href="">
+                      <a href="/birthday-parties">
                         Birthday Bonanza <br /> Special
                       </a>
                     </h4>
@@ -257,7 +257,7 @@ export default function Home() {
                     with joy!
                   </p> */}
                     <a
-                      href=""
+                      href="/birthday-parties"
                       className="program-one__item__rm"
                       title="Read More"
                     >
@@ -285,7 +285,7 @@ export default function Home() {
                   </div>
                   <div className="program-content text-center">
                     <h4>
-                      <a href="">Exclusive Indoor Play Area</a>
+                      <a href="/indoor-play-area">Exclusive Indoor Play Area</a>
                     </h4>
                     <p>
                       Walk-in for exclusive fun-filled soft play activities
@@ -298,7 +298,7 @@ export default function Home() {
                     Development,Nurtures Parent-Child Connection
                   </p> */}
                     <a
-                      href=""
+                      href="/indoor-play-area"
                       className="program-one__item__rm green-bg-btn"
                       title="Read More"
                     >
@@ -326,7 +326,9 @@ export default function Home() {
                   </div>
                   <div className="program-content text-center">
                     <h4>
-                      <a href="">Mesmerizing Kitty Party Experience </a>
+                      <a href="/kitty-party">
+                        Mesmerizing Kitty Party Experience{" "}
+                      </a>
                     </h4>
                     <p>
                       Let our pandas entertain your kids with fun activities
@@ -337,7 +339,7 @@ export default function Home() {
                     finger-licking food and fresh beverages
                   </p> */}
                     <a
-                      href=""
+                      href="/kitty-party"
                       className="program-one__item__rm blue-bg-btn"
                       title="Read More"
                     >
@@ -365,7 +367,9 @@ export default function Home() {
                   </div>
                   <div className="program-content text-center">
                     <h4>
-                      <a href="">Fun and fitness for Moms and kids </a>
+                      <a href="/kids-fitness-classes">
+                        Fun and Fitness For Moms and Kids{" "}
+                      </a>
                     </h4>
                     <p>
                       Enjoy personalized sessions in Yoga, Zumba, Tabata, sound
@@ -377,7 +381,7 @@ export default function Home() {
                     together!
                   </p> */}
                     <a
-                      href=""
+                      href="/kids-fitness-classes"
                       className="program-one__item__rm yellow-bg-btn"
                       title="Read More"
                     >

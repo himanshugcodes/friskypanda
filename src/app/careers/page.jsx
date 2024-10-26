@@ -63,7 +63,7 @@ const Careers = () => {
               <ul>
                 <li>Playzone Attendant</li>
                 <li>Event Coordinator</li>
-                <li>Café Staff</li>
+                <li>Cafe Staff</li>
               </ul>
               <h4>How to Apply?</h4>
               <p>

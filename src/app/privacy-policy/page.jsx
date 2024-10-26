@@ -45,32 +45,130 @@ const PrivacyPolicy = () => {
       </div>
 
       {/* Membership */}
-      <section className="memberships section-padding">
+      <section className="main section-padding">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
+              <h4> Effective Date: 4/11/2024 </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus. Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Fuga tenetur rem ut, ad vitae explicabo repellat sapiente
-                nihil minima. Cupiditate facere minus, nulla pariatur illo unde
-                autem fuga nam tenetur.
+                {" "}
+                Welcome to Frisky Panda Playzone&apos;s website! Your privacy is
+                important to us, and this Privacy Policy outlines how we
+                collect, use, and protect your information. By accessing or
+                using our website, you agree to this Privacy Policy.
               </p>
+              <h4>1. Information We Collect </h4>
+
+              <p> We may collect the following types of information:</p>
+              <ul>
+                <li>
+                  Personal Information: Information such as your name, email
+                  address, phone number, and payment details, provided when you
+                  register for memberships, book events, or make purchases.
+                </li>
+                <li>
+                  Usage Information: Information about your activity on our
+                  website, including IP addresses, browser type, operating
+                  system, pages visited, and time spent.
+                </li>
+                <li>
+                  Cookies and Tracking: We use cookies and similar tracking
+                  technologies to enhance user experience, analyze website
+                  traffic, and customize content.
+                </li>
+              </ul>
+              <h4>2. How We Use Your Information </h4>
+              <p> We use the information collected to:</p>
+              <ul>
+                <li>Process transactions, bookings, and memberships</li>
+                <li>
+                  Communicate with you about your reservations, purchases, and
+                  promotional offers
+                </li>
+                <li>
+                  Improve our website and services by analyzing usage patterns
+                </li>
+                <li>Respond to your inquiries and provide customer support</li>
+                <li>Comply with legal obligations</li>
+              </ul>
+              <h4> 3. How We Share Your Information </h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus.
+                {" "}
+                We do not sell, trade, or rent your personal information.
+                However, we may share it:
+              </p>
+              <ul>
+                <li>
+                  With service providers: Third-party vendors who assist us in
+                  operating our website, conducting business, or servicing you
+                  (such as payment processors or email platforms), provided they
+                  agree to protect your information.
+                </li>
+                <li>
+                  For legal reasons: When required by law or to protect our
+                  rights, property, or safety, or that of others.
+                </li>
+              </ul>
+              <h4> 4. Data Security </h4>
+              <p>
+                {" "}
+                We implement industry-standard security measures to protect your
+                personal information. However, please note that no method of
+                transmission over the internet is 100% secure, and we cannot
+                guarantee absolute security.
+              </p>
+              <h4> 5. Your Rights and Choices </h4>
+              <p> Depending on your location, you may have the right to:</p>
+              <ul>
+                <li>Access, correct, or delete your personal information</li>
+                <li>
+                  Object to or restrict certain processing of your information
+                </li>
+                <li>
+                  Withdraw your consent for marketing communications at any time
+                </li>
+              </ul>
+              <p>
+                {" "}
+                To exercise these rights, please contact us at
+                info@friskypanda.in.
+              </p>
+              <h4> 6. Third-Party Links </h4>
+              <p>
+                {" "}
+                Our website may include links to third-party websites. We are
+                not responsible for the privacy practices or content of these
+                websites. We encourage you to review the privacy policies of any
+                third-party sites you visit.
+              </p>
+              <h4> 7. Children&apos;s Privacy </h4>
+              <p>
+                {" "}
+                Our services are intended for parents and guardians; we do not
+                knowingly collect personal information from children under 13.
+                If we learn that we have inadvertently collected such
+                information, we will take steps to delete it.
+              </p>
+              <h4> 8. Changes to This Privacy Policy </h4>
+              <p>
+                {" "}
+                We may update this Privacy Policy periodically. Changes will be
+                posted on this page with the "Effective Date" updated. Your
+                continued use of our website constitutes acceptance of any
+                changes.
+              </p>
+              <h4> 9. Contact Us </h4>
+              <p>
+                {" "}
+                If you have questions or concerns about this Privacy Policy,
+                please{" "}
+              </p>
+              <p>contact us at: Frisky Panda Playzone</p>
+              <p>Email: info@friskypanda.in</p>
+              <p>Phone: +91 90054 36999</p>
+              <p>
+                Address: Aliganj square, plot no.A-1/1, sector-h, aliganj street
+                and city expansion, Lucknow, Uttar Pradesh 226024
               </p>
             </div>
           </div>

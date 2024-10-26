@@ -1259,6 +1259,10 @@ strong {
     background-position: 100% 17% !important;
     background-repeat: no-repeat !important;
   }
+
+  .breadcrumb-wrapper .page-heading h1 {
+    font-size: 34px !important;
+  }
   .program-box-items {
     position: relative;
     max-width: 270px;
@@ -1268,6 +1272,7 @@ strong {
     text-align: center;
     display: none;
   }
+
   .home-event {
     background-image: url(https://friskypanda.vercel.app/assets/images/event-bg.jpg) !important;
     background-position: center center !important;
@@ -1740,7 +1745,7 @@ strong {
 
 .breadcrumb-wrapper .page-heading h1 {
   color: var(--white-color);
-  font-size: 60px;
+  font-size: 54px;
   position: relative;
   font-family: var(--primary-font);
   z-index: 9;

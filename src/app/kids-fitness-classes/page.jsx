@@ -39,13 +39,13 @@ const pages = () => {
                   <FaChevronRight />
                 </i>
               </li>
-              <li>Fun and Fitness For Moms and Kids</li>
+              <li>Fun and Fitness </li>
             </ul>
           </div>
         </div>
       </div>
       {/* Cafe */}
-      <section className="cafe section-padding main">
+      <section className="cafe section-padding main pb-0">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-12">

@@ -5,6 +5,7 @@ import {
   FaAngleRight,
   FaEnvelope,
   FaFacebookF,
+  FaInstagram,
   FaLinkedinIn,
   FaMapMarkerAlt,
   FaMobileAlt,
@@ -185,7 +186,7 @@ const footer = () => {
             <img src="assets/images/footer-bottom.png" alt="shape-img" />
           </div>
           <div className="container">
-            <div className="footer-wrapper d-flex align-items-center justify-content-between flex-wrap">
+            <div className="footer-wrapper d-flex align-items-center  justify-content-between flex-wrap">
               <p className="footer-copyright mb-0 pb-3 pb-md-0">
                 © 2024 <a href="https://friskypanda.in/">Frisky Panda</a>
               </p>
@@ -199,17 +200,11 @@ const footer = () => {
                       </i>
                     </a>
                   </li>
-                  <li>
-                    <a href="#" target="blank">
-                      <i>
-                        <FaLinkedinIn />
-                      </i>
-                    </a>
-                  </li>
+
                   <li>
                     <a href="" target="blank">
                       <i>
-                        <FaTwitter />
+                        <FaInstagram />
                       </i>
                     </a>
                   </li>

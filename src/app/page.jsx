@@ -415,7 +415,7 @@ export default function Home() {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-6">
+              {/* <div className="col-lg-6">
                 <div
                   className="event-box-item"
                   data-aos="fade-up"
@@ -466,8 +466,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-6">
+              </div> */}
+              {/* <div className="col-lg-6">
                 <div
                   className="event-box-item"
                   data-aos="fade-up"
@@ -518,7 +518,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-lg-6">
                 <div
                   className="event-box-item"

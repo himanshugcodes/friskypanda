@@ -58,7 +58,7 @@ const Rules = () => {
               </p>
               <p>
                 <strong>Age Restrictions:</strong> Our playzone is designed for
-                children aged 2-8. We have specific areas for younger and older
+                children aged 2-12. We have specific areas for younger and older
                 children to ensure safe play for everyone.
               </p>
               <p>

@@ -1,6 +1,7 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
 import QuoteForm from "../../component/QuoteForm";
+import Image from "next/image";
 
 const Memberships = () => {
   return (
@@ -46,6 +47,24 @@ const Memberships = () => {
 
       {/* Membership */}
       <section className="memberships section-padding">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-md-4">
+              <Image
+                src="/assets/images/membership1.jpeg"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="100"
+                width={1131}
+                height={1600}
+                alt="Frisky Panda"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* <section className="memberships section-padding">
         <div className="container">
           <div className="column">
             <div className="pricing-card basic">
@@ -137,24 +156,8 @@ const Memberships = () => {
             </div>
           </div>
         </div>
-        {/* <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-             
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-                nihil reiciendis delectus dicta ex fuga, cupiditate tempora
-                velit aliquam assumenda alias vero tenetur blanditiis nobis
-                saepe repellendus doloremque cum dolorem! Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Iste, ipsa laboriosam vel
-                voluptatibus, odit ipsam quam accusantium vitae eum corporis
-                dolorum impedit aperiam! Laborum praesentium, nisi ipsum id odio
-                accusamus.
-              </p>
-            </div>
-          </div>
-        </div> */}
-      </section>
+         
+      </section>*/}
       {/* CTA Form */}
       <QuoteForm />
     </>

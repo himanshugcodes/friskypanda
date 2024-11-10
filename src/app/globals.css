@@ -696,6 +696,9 @@ strong {
   padding-left: 25px;
   color: var(--text-color);
 }
+.event-box-item .event-content .event-list li a {
+  color: var(--text-color);
+}
 .event-box-item .event-content .event-list li i {
   position: absolute;
   left: 0;

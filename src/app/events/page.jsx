@@ -64,110 +64,6 @@ const Events = () => {
                           <Image
                             width={134}
                             height={134}
-                            src="/assets/images/event-1.png"
-                            alt="image"
-                          />
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="col-md-6 order-1 order-md-0">
-                      <div className="event-content">
-                        <h3>
-                          <a href="#">Little Monsters Bash </a>
-                        </h3>
-                        <ul className="event-list">
-                          <li>
-                            <i>
-                              <FaRegClock />
-                            </i>
-                            3:00 PM - 7:00 PM
-                          </li>
-                          <li>
-                            <i>
-                              <FaMapMarker />
-                            </i>
-                            Plot No. A-1/1, Sector-H, Aliganj
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div className="col-md-3 order-0 order-md-1">
-                      <div className="event-date">
-                        <h4>31 </h4>
-                        <span>October</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div
-                  className="event-box-item"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-delay="400"
-                >
-                  <div className="row align-items-center">
-                    <div className="col-md-3">
-                      <div className="event-image">
-                        <a href="#">
-                          <Image
-                            width={134}
-                            height={134}
-                            src="/assets/images/event-2.png"
-                            alt="image"
-                          />
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="col-md-6 order-1 order-md-0">
-                      <div className="event-content">
-                        <h3>
-                          <a href="#">Joyful Junior Diwali Delight</a>
-                        </h3>
-                        <ul className="event-list">
-                          <li>
-                            <i>
-                              <FaRegClock />
-                            </i>
-                            2:00 PM - 6:00 PM
-                          </li>
-                          <li>
-                            <i>
-                              <FaMapMarker />
-                            </i>
-                            Plot No. A-1/1, Sector-H, Aliganj
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div className="col-md-3 order-0 order-md-1">
-                      <div className="event-date">
-                        <h4> 03 </h4>
-                        <span>November</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div
-                  className="event-box-item"
-                  data-aos="fade-up"
-                  data-aos-duration="1500"
-                  data-aos-delay="400"
-                >
-                  <div className="row align-items-center">
-                    <div className="col-md-3">
-                      <div className="event-image">
-                        <a href="#">
-                          <Image
-                            width={134}
-                            height={134}
                             src="/assets/images/event-3.png"
                             alt="image"
                           />
@@ -185,13 +81,18 @@ const Events = () => {
                             <i>
                               <FaRegClock />
                             </i>
-                            1:00 PM - 5:00 PM
+                            11:00 AM - 09:00 PM
                           </li>
                           <li>
-                            <i>
-                              <FaMapMarker />
-                            </i>
-                            Plot No. A-1/1, Sector-H, Aliganj
+                            <a
+                              href="https://maps.app.goo.gl/9HYRbyihsHdSuKL47?g_st=iw"
+                              target="_blank"
+                            >
+                              <i>
+                                <FaMapMarker />
+                              </i>
+                              Plot No. A-1/1, Sector-H, Aliganj
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -237,13 +138,18 @@ const Events = () => {
                             <i>
                               <FaRegClock />
                             </i>
-                            2:00 PM - 6:00 PM
+                            11:00 AM - 09:00 PM
                           </li>
                           <li>
-                            <i>
-                              <FaMapMarker />
-                            </i>
-                            Plot No. A-1/1, Sector-H, Aliganj.
+                            <a
+                              href="https://maps.app.goo.gl/9HYRbyihsHdSuKL47?g_st=iw"
+                              target="_blank"
+                            >
+                              <i>
+                                <FaMapMarker />
+                              </i>
+                              Plot No. A-1/1, Sector-H, Aliganj.
+                            </a>
                           </li>
                         </ul>
                       </div>

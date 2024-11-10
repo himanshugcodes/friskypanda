@@ -202,7 +202,10 @@ const footer = () => {
                   </li>
 
                   <li>
-                    <a href="" target="blank">
+                    <a
+                      href="https://www.instagram.com/friskypanda.in/"
+                      target="blank"
+                    >
                       <i>
                         <FaInstagram />
                       </i>

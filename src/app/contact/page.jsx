@@ -74,7 +74,8 @@ const Contact = () => {
                     </i>
                     <p>Have any question?</p>
                     <h4>
-                      <a href="tel:919005436999">+91 90054 36999</a>
+                      <a href="tel:919005436999">+91 90054 36999</a> <br />
+                      <a href="tel:919005437999">+91 90054 37999</a>
                     </h4>
                   </div>
                 </div>

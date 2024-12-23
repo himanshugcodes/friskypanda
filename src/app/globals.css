@@ -187,7 +187,7 @@ dl {
 .navigation ul li a {
   text-decoration: none;
   color: #2b2767;
-  font-size: 18px;
+  font-size: 16px;
   font-family: var(--primary-font);
   display: inline-block;
   position: relative;

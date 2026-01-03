@@ -128,7 +128,7 @@ export default function Home() {
                 <div className="main-heading">
                   {/* <h5 className="mt-5">Why Choose Us</h5> */}
                   <h1 className="" data-aos="fade-up">
-                    Why Choose Us
+                    Why Choose Frisky Panda
                   </h1>
                   {/* <p>
                   Join us for an unforgettable experience at our exclusive

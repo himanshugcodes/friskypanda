@@ -10,34 +10,32 @@ const QuoteForm = () => {
     phone: "",
     message: "",
   });
+  const [status, setStatus] = useState(""); // "loading" | "success" | "error"
 
   const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setStatus("loading");
 
     try {
       const response = await fetch("/api/sendEmail", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
       });
 
       if (response.ok) {
-        alert("Your message has been sent!");
+        setStatus("success");
+        setFormData({ name: "", email: "", phone: "", message: "" });
       } else {
-        alert("Failed to send message.");
+        setStatus("error");
       }
     } catch (error) {
       console.error("Error sending email:", error);
-      alert("An error occurred.");
+      setStatus("error");
     }
   };
 
@@ -128,17 +126,30 @@ const QuoteForm = () => {
                   />
                 </div>
 
+                {/* Status Messages */}
+                {status === "success" && (
+                  <p className="text-success text-center mb-3">
+                    ✅ Message sent! We will be in touch soon.
+                  </p>
+                )}
+                {status === "error" && (
+                  <p className="text-danger text-center mb-3">
+                    ❌ Something went wrong. Please try again.
+                  </p>
+                )}
+
                 <div className="row justify-content-center">
                   <div className="col-md-12 text-center">
                     <button
                       type="submit"
                       className="theme-btn"
+                      disabled={status === "loading"}
                       data-aos="fade-up"
                       data-aos-duration="1000"
                       data-aos-delay="200"
                     >
                       <span>
-                        Submit
+                        {status === "loading" ? "Sending..." : "Submit"}
                         <i>
                           <FaArrowRight />
                         </i>
@@ -149,9 +160,10 @@ const QuoteForm = () => {
               </form>
             </div>
           </div>
+
           {/* Instagram */}
           <div className="col-md-5">
-            <div className="quote-item item-two ">
+            <div className="quote-item item-two">
               <div className="row justify-content-center pb-2">
                 <div className="col-md-8">
                   <div
